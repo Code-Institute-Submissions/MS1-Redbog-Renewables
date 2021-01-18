@@ -1,0 +1,13 @@
+.navbar-custom {
+    background-color: black;
+}
+
+.navbar-brand {
+    color:#00feb2;
+}
+
+
+.navbar .navbar-nav li a {
+    color: #00feb2;
+}
+
