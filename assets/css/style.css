@@ -108,7 +108,7 @@
 
 /*--------------------------------------------- TECHNOLOGY PAGE ---------------------------------------- */
 .technology-page {
-    background-color: grey;
+    background-color: transparent;
     background-size: cover;
     height: auto;
 }
@@ -130,7 +130,7 @@
 
 .technology-card {
     width: 350px;
-    height: 286px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,5 +139,40 @@
     
     padding: 5px;
     margin: 15px;
-    background-color: grey;
+    background-color: transparent;
+}
+
+.spacing {
+    background-color: blueviolet;
+    height: 15px;
+    width: 100%;
+}
+
+/*--------------------------------------------- ABOUT PAGE ---------------------------------------- */
+.about-page {
+    background-color: black;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.about-heading {
+    text-align: center;
+    color: #00feb2;
+    margin: 15px;
+    padding-top: 10%;
+    padding-bottom: 5px;
+}
+
+.about-paragraph {
+    background-color: bisque;
+    margin: 0;
+    padding: 15px 30px 15px 30px;
+}
+
+.about-staff {
+    background-color: brown;
+    margin: 1px;
+    padding: 15px 30px 15px 30px;
+    
 }
