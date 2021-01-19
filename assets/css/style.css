@@ -1,3 +1,5 @@
+
+/*------------------------------------------------ NAVBAR ----------------------------------------------*/
 .navbar-custom {
     background-color: black;
 }
@@ -11,3 +13,131 @@
     color: #00feb2;
 }
 
+
+/*--------------------------------------------- LANDING PAGE ---------------------------------------- */
+.landing-page {
+    background: url(../images/1461880.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.landing-heading {
+    color: #00feb2;
+    padding: 5px;
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    
+}
+
+.landing-paragraph {
+    color: white;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 5px;
+    left: 40px;
+    top: 40px;
+    padding: 8px;
+    padding-right: 50%;
+    font-size: 105%;
+}
+
+/*----------------------------------------- SERVICES PAGE ------------------------------------------ */
+.services-page {
+    background: black;
+    background-size: cover;
+    height: auto;
+}
+
+.services-heading {
+    margin: 15px;
+    padding-top: 10%;
+    padding-bottom: 5px;
+    color: #00feb2;
+    text-align: center;
+}
+
+.services-card {
+    width: 350px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: 1px solid greenyellow;
+    padding: 5px;
+    margin: 15px;
+    background-color: grey;
+}
+
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+
+/*--------------------------------------------- TECHNOLOGY PAGE ---------------------------------------- */
+.technology-page {
+    background-color: grey;
+    background-size: cover;
+    height: auto;
+}
+
+.technology-heading {
+    margin: 15px;
+    padding-top: 10%;
+    padding-bottom: 5px;
+    color: black;
+    text-align: center;
+}
+
+.technology-paragraph {
+    text-align: center;
+    color: darkgrey;
+    margin-bottom: 30px;
+    padding-top: 2%;
+}
+
+.technology-card {
+    width: 350px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    
+    padding: 5px;
+    margin: 15px;
+    background-color: grey;
+}
