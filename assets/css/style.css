@@ -52,6 +52,7 @@
     background: black;
     background-size: cover;
     height: auto;
+    padding-bottom: 10%;
 }
 
 .services-heading {
@@ -111,6 +112,7 @@
     background-color: transparent;
     background-size: cover;
     height: auto;
+    padding-bottom: 10%;
 }
 
 .technology-heading {
@@ -154,6 +156,7 @@
     background-size: cover;
     height: auto;
     color: white;
+    padding-bottom: 10%;
 }
 
 .about-heading {
@@ -165,14 +168,47 @@
 }
 
 .about-paragraph {
-    background-color: bisque;
+    background-color: black
     margin: 0;
     padding: 15px 30px 15px 30px;
 }
 
 .about-staff {
-    background-color: brown;
+    background-color: transparent;
     margin: 1px;
     padding: 15px 30px 15px 30px;
-    
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.divider {
+    color: #00feb2;
+    width: 100%;
+    height: 1px;
+}
+
+.vert-divider {
+    background-color: #00feb2;
+    margin: 0;
+    padding: 0;
+    width: 1px;
+}
+
+hr {
+    opacity: 1;
+}
+
+/*--------------------------------------------- GET IN TOUCH PAGE ---------------------------------------- */
+
+.contact-page {
+    background: url(../images/1461880.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.contact-card {
+    background-color: lightgray;
+    border: 1px ;
 }

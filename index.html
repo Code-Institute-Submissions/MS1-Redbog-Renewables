@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-6 about-paragraph">
+                <div class="col-12 col-md-5 about-paragraph">
                     <p>
                         About The Team goes here.About The Team goes here.About The Team goes here.About The Team goes here.
                     About The Team goes here.About The Team goes here.About The Team goes here.About The Team goes here.
@@ -160,9 +160,13 @@
                     
                     </p>
                 </div>
-                <div class="col-md-6">
-                    <div class="about-staff">Test</div>
-                    <div class="about-staff">Test</div>
+                <!-- The vert/horz divider was based on code from: 
+    https://stackoverflow.com/questions/36447725/creating-a-responsive-divider-vertical-horizontal-in-bootstrap-->
+                <div class="d-none d-md-block vert-divider"></div>
+                <div class="col-12 col-md-5" style="margin-left:-1px;">
+                    <hr class="d-sm-block d-md-none divider">
+                    <div class="col-12 about-staff">Test</div>
+                    <div class="col-12 about-staff">Test</div>
                     <div class="col-12 about-staff">Test</div>
                     <div class="col-12 about-staff">Test</div>
                     <div class="col-12 about-staff">Test</div>
@@ -176,7 +180,22 @@
     
     <!--Get in touch-->
     <section>
-        <p>Get in touch</p>
+        <div class="container-fluid contact-page">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="contact-heading">Get In Touch!</h1>
+                </div>
+                <div class="col-md-6 contact-card">
+                    <h2>We'd love to hear from you!</h2>
+                    <p>FORM GOES HERE.</p>
+                </div>
+                <div class="col-md-6 contact-card">
+                    <h2>Where to find us</h2>
+                    <p>MAP GOES HERE</p>
+                </div>
+            </div>
+        </div>
+        
     </section>
     
     <!--Footer-->
