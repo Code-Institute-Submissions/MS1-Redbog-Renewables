@@ -1,7 +1,7 @@
 
 /*------------------------------------------------ NAVBAR ----------------------------------------------*/
 .navbar-custom {
-    background-color: black;
+    background-color: #383838;
 }
 
 .navbar-brand {
@@ -168,7 +168,7 @@
 }
 
 .about-paragraph {
-    background-color: black
+    background-color: black;
     margin: 0;
     padding: 15px 30px 15px 30px;
 }
@@ -201,14 +201,36 @@ hr {
 /*--------------------------------------------- GET IN TOUCH PAGE ---------------------------------------- */
 
 .contact-page {
-    background: url(../images/1461880.jpg) no-repeat bottom center fixed;
+    background: url(../images/turbine-long.jpg) no-repeat bottom center fixed;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     position: relative;
-    display: flex;
+    padding-bottom: 10%;
 }
 
 .contact-card {
-    background-color: lightgray;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 1px ;
+    margin: 5px;
+    color: white;
+}
+
+.contact-heading {
+    margin: 15px;
+    padding-top: 10%;
+    padding-bottom: 5px;
+    color: #00feb2;
+    text-align: center;
+}
+
+#mapid {
+    height: 180px;
+    
+}
+
+/*--------------------------------------------- FOOTER ---------------------------------------- */
+.footer-page {
+    background-color: grey;
+    height: 50px;
+    color: #00feb2;
 }

@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
     <title>RedBog Renewables</title>
 </head>
 
@@ -153,11 +159,11 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-5 about-paragraph">
                     <p>
-                        About The Team goes here.About The Team goes here.About The Team goes here.About The Team goes here.
-                    About The Team goes here.About The Team goes here.About The Team goes here.About The Team goes here.
-                    About The Team goes here.About The Team goes here.About The Team goes here.About The Team goes here.
-                    About The Team goes here.About The Team goes here.About The Team goes here.About The Team goes here.
-                    
+                        RedBog renewables is an energy service provider for a wide range of renewable technologies on the island of Ireland, including wind, solar and hydro.
+                    </p><p>
+                        Established as new start up in 2020, RedBog aims to help provide essential services to manage and maintain the growing green energy portfolio in Ireland.
+                    </p><p>
+                        The small team based in County Meath have over twenty years of experience in the renewable field. The team ranges from design engineers to financial analysts
                     </p>
                 </div>
                 <!-- The vert/horz divider was based on code from: 
@@ -185,13 +191,62 @@
                 <div class="col-12">
                     <h1 class="contact-heading">Get In Touch!</h1>
                 </div>
-                <div class="col-md-6 contact-card">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-5 contact-card">
                     <h2>We'd love to hear from you!</h2>
-                    <p>FORM GOES HERE.</p>
+                    <p>If you're interested in working together, fill out the form below and we'll get back to you.</p>
+                        <div class="mb-3">
+                            <!--<label for="exampleFormNameInput" class="form-label">Name</label>-->
+                            <input type="name" class="form-control" id="exampleFormNameInput" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <!--<label for="exampleFormEmailInput" class="form-label">Email address</label>-->
+                            <input type="email" class="form-control" id="exampleFormEmailInput" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3">
+                            <!--<label for="exampleFormOrganisationInput" class="form-label">Organisation</label>-->
+                            <input type="name" class="form-control" id="exampleFormOrganisationInput" placeholder="Organisation/Company">
+                        </div>
+                        <div class="mb-3">
+                            <!--<label for="FormControlDropdown" class="form-label">Services you need</label>-->
+                            <select class="form-select" aria-label="Default select example" id="FormControlDropdown">
+                                <option selected>Services you require</option>
+                                <option value="1">Asset Management</option>
+                                <option value="2">Maintenance</option>
+                                <option value="3">Retrofit Design</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <!--<label for="exampleFormControlTextarea1" class="form-label">Let us know how we can help!</label>-->
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="What can we do for you?"></textarea>
+                        </div>
+                        <div>
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                        </div>
                 </div>
-                <div class="col-md-6 contact-card">
+                <div class="col-md-5 contact-card">
                     <h2>Where to find us</h2>
-                    <p>MAP GOES HERE</p>
+                    <p>Redbog Renewables<br>
+                        Redbog road<br>
+                        Grangend, Dunshaughlin<br>
+                        Co.Meath<br>
+                    </p>
+                    <div id="mapid">
+                        <!--This map was followed by combination of : https://www.youtube.com/watch?v=wVnimcQsuwk and https://leafletjs.com/examples/quick-start/
+                        Along with the use of https://cloud.maptiler.com/maps/streets/-->
+                        <script> 
+                            mymap = L.map('mapid').setView([53.5267, -6.5488], 13);
+
+                            L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=zbyC3NxJZISl7AmrhZwq', {
+                                attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+                            }).addTo(mymap);
+
+                            var marker = L.marker([53.5267613,-6.5488573]).addTo(mymap);
+                        </script>
+                    </div>
+                    <h2>Interested in finding out more?</h2>
+                    <p>Find out more on our social links below or get in touch with the team!</p>
                 </div>
             </div>
         </div>
@@ -200,7 +255,11 @@
     
     <!--Footer-->
     <footer>
-        <p>footer</p>
+        <div class="container-fluid footer-page">
+            <div class="col-12">
+                <div>LOGO</div>
+            </div>
+        </div>
     </footer>
 
 
