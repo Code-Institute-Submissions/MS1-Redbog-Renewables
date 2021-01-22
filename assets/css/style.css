@@ -69,7 +69,7 @@
     background: black;
     background-size: cover;
     height: auto;
-    padding-bottom: 10%;
+    padding-bottom: 25%;
 }
 
 .services-heading {
@@ -311,9 +311,6 @@ hr {
     overflow: hidden;
     position: relative;
     padding-bottom: 60%;
-
-
-   
     
 }
 
@@ -362,7 +359,7 @@ hr {
 }
 
 .hover-1:hover .hover-1-title {
-    transform: translateY(-1.5rem);
+    transform: translateY(-5rem);
 }
 
 .hover-1:hover .hover-1-description {
