@@ -4,13 +4,15 @@
 /*------------------------------------------------ NAVBAR ----------------------------------------------*/
 .navbar-custom {
     background-color: #383838;
-    z-index: 1;
+    z-index: 99;
 }
 
-.navbar-brand {
-    color:#00feb2;
+.navbar-scroll {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
 }
-
 
 .navbar .navbar-nav li a {
     color: #00feb2;
@@ -24,6 +26,7 @@
 }
 
 .navbar-brand {
+    color:#00feb2;
     font-weight: lighter;
     letter-spacing: 1px;
 }
@@ -48,7 +51,7 @@
     margin-right: 5px;
     position: relative;
     left: 30px;
-    top: 30px; 
+    top: 30px;
 }
 
 .landing-paragraph {
@@ -211,6 +214,7 @@
     height: auto;
     color: white;
     padding-bottom: 10%;
+    font-family: 'Lato', sans-serif;
 }
 
 .about-heading {
@@ -234,7 +238,7 @@
     margin: 1px;
     margin-bottom: 5px;
     padding: 15px 30px 15px 30px;
-    border: 2px solid white;
+    
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
 }
@@ -258,6 +262,28 @@
 
 hr {
     opacity: 1;
+}
+
+.team-photo {
+    margin: 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-icon {
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.team-icon:hover {
+    color: #00feb2;
+    transition: all 0.9s ease-in-out;
+}
+
+.team-textbox {
+    margin: 5px;
+    padding: 5px;
 }
 
 /*--------------------------------------------- GET IN TOUCH PAGE ---------------------------------------- */
