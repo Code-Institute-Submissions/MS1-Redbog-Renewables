@@ -31,11 +31,16 @@
     letter-spacing: 1px;
 }
 
+.navbar .navbar-nav li a:hover {
+    color: white;
+    transition: all 0.35s ease-in-out;
+}
+
 
 
 /*--------------------------------------------- LANDING PAGE ---------------------------------------- */
 .landing-page {
-    background: url(../images/1461880.jpg) no-repeat bottom center fixed;
+    background: url(../images/turbinewind.jpg) no-repeat top center fixed;
     background-size: cover;
     height: 100vh;
     position: relative;
