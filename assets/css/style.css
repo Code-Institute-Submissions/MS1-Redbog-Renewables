@@ -5,6 +5,8 @@
 .navbar-custom {
     background-color: #383838;
     z-index: 99;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .navbar-scroll {
@@ -22,11 +24,11 @@
     padding-right: 25px;
     text-transform: uppercase;
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .navbar-brand {
-    color:#00feb2;
+    color: #00feb2;
     font-weight: lighter;
     letter-spacing: 1px;
 }
@@ -36,11 +38,19 @@
     transition: all 0.35s ease-in-out;
 }
 
+.logo {
+    width: 46px;
+    height: auto;
+    display: inline;
+    padding-right: 5px;
+    overflow: hidden;
+    display: inline;
+}
 
 
 /*--------------------------------------------- LANDING PAGE ---------------------------------------- */
 .landing-page {
-    background: url(../images/turbinewind.jpg) no-repeat top center fixed;
+    background: url(../images/turbinesunset.jpg) no-repeat top center fixed;
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -71,6 +81,7 @@
     font-size: 105%;
     font-family: 'Lato', sans-serif;
 }
+
 
 /*----------------------------------------- SERVICES PAGE ------------------------------------------ */
 .services-page {
@@ -236,6 +247,8 @@
     margin: 0;
     padding: 15px 30px 15px 30px;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 125%;
 }
 
 .about-staff {
@@ -307,14 +320,13 @@ hr {
 }
 
 .contact-card {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(156, 156, 156, 0.67);
     border: 1px ;
     margin: 15px;
     color: white;
     border-radius: 25px;
     padding: 5%;
     max-width: 526px;
-
 }
 
 .contact-heading {
@@ -325,8 +337,44 @@ hr {
     text-align: center;
 }
 
+.form-select {
+    background-color: rgba(255, 255, 255, 0.59);
+    color: black;
+    font-weight: 300;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.59);
+    color: black;
+}
+
+/*--https://stackoverflow.com/questions/51299051/placeholder-color-change-in-bootstrap--*/
+.form-control::placeholder { 
+            color: black;
+            opacity: 1; 
+            font-weight: 300;
+}
+
 #mapid {
     height: 180px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.button {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #00feb2;
+    color: #383838;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: #00feb2;
+    background-color: #383838;
+    transition: all 0.35s ease-in-out;
 }
 
 /*--------------------------------------------- FOOTER ---------------------------------------- */
@@ -402,3 +450,95 @@ hr {
     background: rgba(0, 0, 0, 0.9);
 }
 
+
+/*--------------------- Bounce icon -------------------*/
+.arrow-down {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.scroll-info {
+    color: #00feb273;
+    padding-top: 80%;
+    text-align: center;
+   
+}
+
+/*--- https://gist.github.com/gubi/8483199 ---*/
+.fa-bounce {
+    color: #00feb273;
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 1s infinite linear;
+    -o-animation: bounce 1s infinite linear;
+    -webkit-animation: bounce 1s infinite linear;
+    animation: bounce 1s infinite linear;
+}
+
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+
+/*--- https://gist.github.com/gubi/8483199 ---*/
+.fa-pulses {
+	display: inline-block;
+	-moz-animation: pulse 2s infinite linear;
+	-o-animation: pulse 2s infinite linear;
+	-webkit-animation: pulse 2s infinite linear;
+	animation: pulse 2s infinite linear;
+}
+
+@-webkit-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-o-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-ms-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}

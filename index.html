@@ -19,7 +19,11 @@
     <header class="navbar-scroll">
         <nav class="navbar navbar-expand-md navbar-custom">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand">RedBog Renewables</a>
+                <a href="#" class="navbar-brand">
+                    <!-- https://github.com/creativetimofficial/material-kit/issues/107 -->
+                    <div style="display: inline-block;"><img class="logo" src="assets/images/logo.png"></div>
+                    <div class="d-none d-sm-inline-block" style="display: inline-block;">RedBog Renewables</div>
+                </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
                     <span><i class="fas fa-bars" style="color: #00feb2;"></i></span>
@@ -55,17 +59,27 @@
                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis. 
                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
                </div>
+               <div class="col-12 scroll-info align-self-end">
+                   <h6>Scroll to find out more</h6>
+               </div>
+               <!-- https://gist.github.com/gubi/8483199 -->
+               <div class="col-12 align-self-end arrow-down">
+                   <a href="#services"><i class="fas fa-arrow-down fa-2x fa-bounce"></i></a>
+               </div>
            </div>
         </div>
     </section>
-    
+
     <!--Our Services-->
     <section id="services">
         <div class="container-fluid services-page">
             <div class="row">
                 <div class="col-12">
                     <h1 class="services-heading">Our Services</h1>
-                    <p class="technology-paragraph">this is a brief description of our renewable technology</p>
+                    <p class="technology-paragraph">RedBog Renewables provides quality experitise in three key service areas. Asset Management
+                        , Maintenance and Design Retrofit. Our experitise focuses on Wind, Hydro and Solar technology. We provide a full suite 
+                        of services to our customers with 24/7 support with or technical team and long lead time project development.
+                    </p>
                 </div>
             </div>
             <div class="row row-col-1 row-col-md-3 justify-content-center">
@@ -95,7 +109,7 @@
                     <div class="hover hover-1 text-white rounded"><img src="assets/images/service-2.jpg" class="" alt="">
                         <div class="hover-overlay"></div>
                         <div class="hover-1-content px-5">
-                            <h2 class="hover-1-title text-uppercase font-weight-bold mb-0"><span class="font-weight-light">Asset Management </span></h2>
+                            <h2 class="hover-1-title font-weight-bold mb-0"><span class="font-weight-light">Asset Management </span></h2>
                             <p class="hover-1-description text-uppercase mb-0">This is about our Maintenance hello and more of that hello. This is about our Maintenance hello and more of that hello.</p>
                         </div>
                     </div>
@@ -105,7 +119,7 @@
                     <div class="hover hover-1 text-white rounded"><img src="assets/images/service-3.jpg" class="" alt="">
                         <div class="hover-overlay"></div>
                         <div class="hover-1-content px-5">
-                            <h2 class="hover-1-title text-uppercase font-weight-bold mb-0"><span class="font-weight-light">Maintenance </span></h2>
+                            <h2 class="hover-1-title font-weight-bold mb-0"><span class="font-weight-light">Maintenance </span></h2>
                             <p class="hover-1-description text-uppercase mb-0">This is about our Maintenance hello and more of that hello</p>
                         </div>
                     </div>
@@ -115,8 +129,8 @@
                     <div class="hover hover-1 text-white rounded"><img src="assets/images/service-1.jpg" class="" alt="">
                         <div class="hover-overlay"></div>
                         <div class="hover-1-content px-5">
-                            <h2 class="hover-1-title text-uppercase font-weight-bold mb-0"><span class="font-weight-light">Design Retrofit </span></h2>
-                            <p class="hover-1-description text-uppercase mb-0">This is about our Maintenance hello and more of that hello</p>
+                            <h2 class="hover-1-title font-weight-bold mb-0"><span class="font-weight-light">Design Retrofit </span></h2>
+                            <p class="hover-1-description text-uppercase mb-0">Upgrade Wind Turbines to their full potential</p>
                         </div>
                     </div>
                 </div>  
@@ -142,7 +156,7 @@
                     <img src="assets/images/turbine-card.jpg" class="card-img-top" alt="Wind turbines in a field">
                     <div class="card-body">
                         <div class="card-text">
-                            <h2><i class="fas fa-fan"></i> Wind Energy</h2>
+                            <h2><i class="fas fa-fan fa-spin"></i> Wind Energy</h2>
                             <p>This is a card</p>
                         </div>
                     </div>
@@ -153,7 +167,7 @@
                     <img src="assets/images/solar-card.jpg" class="card-img-top" alt="Wind turbines in a field">
                     <div class="card-body">
                         <div class="card-text">
-                            <h2><i class="fas fa-sun"></i> Solar Energy</h2>
+                            <h2><i class="fas fa-sun fa-spin"></i> Solar Energy</h2>
                             <p>This is a card</p>
                         </div>
                     </div>
@@ -164,7 +178,7 @@
                     <img src="assets/images/hydro-card.jpg" class="card-img-top" alt="Wind turbines in a field">
                     <div class="card-body">
                         <div class="card-text">
-                            <h2><i class="fas fa-water"></i> Hydro Energy</h2>
+                            <h2><i class="fas fa-water fa-pulses"></i> Hydro Energy</h2>
                             <p>This is a card</p>
                         </div>
                     </div>
@@ -204,7 +218,7 @@
                     <hr class="d-sm-block d-md-none divider">
                         <div class="col-12 about-staff">
                             <div class="d-inline-flex team-photo">
-                                <img src="assets/images/person1.jpg" class="team-photo" alt="xxx" height="75px" width="75px">
+                                <img src="assets/images/person1.jpg" class="team-photo" alt="xxx" height="100px" width="100px">
                                 <div class="d-inline-flex team-textbox">
                                     <div class="d-flex flex-column">
                                         <h5>Tom Kinsella</h5>
@@ -220,7 +234,7 @@
                         </div>
                         <div class="col-12 about-staff">
                             <div class="d-inline-flex team-photo">
-                                <img src="assets/images/person3.jpg" class="team-photo" alt="xxx" height="75px" width="75px">
+                                <img src="assets/images/person3.jpg" class="team-photo" alt="xxx" height="100px" width="100px">
                                 <div class="d-inline-flex team-textbox">
                                     <div class="d-flex flex-column">
                                         <h5>Eileen Griffin</h5>
@@ -236,7 +250,7 @@
                         </div>
                         <div class="col-12 about-staff">
                             <div class="d-inline-flex team-photo">
-                                <img src="assets/images/person2.jpg" class="team-photo" alt="xxx" height="75px" width="75px">
+                                <img src="assets/images/person2.jpg" class="team-photo" alt="xxx" height="100px" width="100px">
                                 <div class="d-inline-flex team-textbox">
                                     <div class="d-flex flex-column">
                                         <h5>Cathal Byrne</h5>
@@ -252,7 +266,7 @@
                         </div>
                         <div class="col-12 about-staff">
                             <div class="d-inline-flex team-photo">
-                                <img src="assets/images/solar-card.jpg" class="team-photo" alt="xxx" height="75px" width="75px">
+                                <img src="assets/images/solar-card.jpg" class="team-photo" alt="xxx" height="100px" width="100px">
                                 <div class="d-inline-flex team-textbox">
                                     <div class="d-flex flex-column">
                                         <h5>Jarlath Kinsella</h5>
@@ -268,7 +282,7 @@
                         </div>
                         <div class="col-12 about-staff">
                             <div class="d-inline-flex team-photo">
-                                <img src="assets/images/solar-card.jpg" class="team-photo" alt="xxx" height="75px" width="75px">
+                                <img src="assets/images/solar-card.jpg" class="team-photo" alt="xxx" height="100px" width="100px">
                                 <div class="d-inline-flex team-textbox">
                                     <div class="d-flex flex-column">
                                         <h5>Lian Rooney</h5>
@@ -316,7 +330,7 @@
                         </div>
                         <div class="mb-3">
                             <!--<label for="FormControlDropdown" class="form-label">Services you need</label>-->
-                            <select class="form-select" aria-label="Default select example" id="FormControlDropdown">
+                            <select class="form-select" aria-label="Default select example" id="FormControlDropdown" placeholder="Services you require">
                                 <option selected>Services you require</option>
                                 <option value="1">Asset Management</option>
                                 <option value="2">Maintenance</option>
@@ -327,7 +341,7 @@
                             <!--<label for="exampleFormControlTextarea1" class="form-label">Let us know how we can help!</label>-->
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="What can we do for you?"></textarea>
                         </div>
-                        <div>
+                        <div class="button">
                             <input class="btn btn-primary" type="submit" value="Submit">
                         </div>
                 </div>
