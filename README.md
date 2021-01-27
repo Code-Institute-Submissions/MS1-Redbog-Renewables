@@ -11,7 +11,16 @@ ready to assist in the ever-growing market of renewable energy.
 # UX
 ## User Stories
 ----------------
-This is the user story section.
+__Business to Business__
+- As a user
+
+__Prospective Employee__
+
+__Prospective Investor__
+
+__Returning Users__
+
+
 ## Strategy
 ----------------
 This is the section for Strategy
