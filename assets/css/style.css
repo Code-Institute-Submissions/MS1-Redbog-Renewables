@@ -21,7 +21,7 @@
 }
 
 .nav-item {
-    padding-right: 25px;
+    padding-right: 20px;
     text-transform: uppercase;
     font-weight: lighter;
     font-size: 16px;
@@ -29,11 +29,16 @@
 
 .navbar-brand {
     color: #00feb2;
-    font-weight: lighter;
+    font-weight: 300;
     letter-spacing: 1px;
 }
 
 .navbar .navbar-nav li a:hover {
+    color: white;
+    transition: all 0.35s ease-in-out;
+}
+
+.navbar-brand:hover {
     color: white;
     transition: all 0.35s ease-in-out;
 }
@@ -460,7 +465,7 @@ hr {
 
 .scroll-info {
     color: #00feb273;
-    padding-top: 80%;
+    padding-top: 0;
     text-align: center;
    
 }
