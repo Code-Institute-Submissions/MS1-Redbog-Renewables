@@ -19,13 +19,23 @@ __Business to Business__
 - As a user, I would like to know about the history and experience of the company.
 - As a user, I would appreciate the opportunity to "meet the team", with the ability to know more if I need to.
 - As a user, I would like to contact the company, and quickly filter what service I am interested in.
-- As a user, knowing where the company is based is important.
+- As a user, knowing where the company is located is important, will they be able to provide a service within reasonable time.
 - As a user, I would like to use the site on mobile and desktop.  
 
 __Prospective Employee__
-- As a user, 
+- As a prospective job applicant, I need to know that the company operates in the relevant area of my skillset.
+- As a prospective job applicant, I would like to know the specific technology in which this company has expertise.
+- As a prospective job applicant, learning about the company prior to my application is important. 
+- As a prospective job applicant, I would like to know that this company is open to recruitment.
+- As a prospective job applicant, I require the ability to contact the company and register my interest in a career.
+- As a prospective job applicant, links to the company social media is important, to find out if the company are active and what their latest news is.
+- As a prospective job applicant, I need to know where the company is based. 
 
-__Prospective Investor__
+__Potential Investor__
+- As a potential investor, I would like to see that the company is a new start-up company, open to investment.
+- As a potential investor, I need to see that the company is operating a service in a new emerging marketplace.
+- As a potential investor, knowing that the company has substantial experience in the relevant areas is important.
+- As a potential investor, I would like the ability to contact the company and initate communication relevant to my investment opportunity.
 
 __Returning Users__
 - As a returning user, I would like to be able to quickly navigate to a specific area of the site. i.e Go directly to the contact page.
