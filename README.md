@@ -41,19 +41,41 @@ __Returning Users__
 - As a returning user, I would like to be able to quickly navigate to a specific area of the site. i.e Go directly to the contact page.
 - As a returning user, I need to be able to gain more information about relevant services that had not been identified on the first visit to the site.
 
-
 ## Strategy
 ----------------
-This is the section for Strategy
+__Project goals__
+
+The aim of this project is to build a site for a fictional start-up company and enable the company to create a professional and effective online presence. 
+It was important for me to create a user-friendly and modern design site, that in effect inticed the user to discover more about the content
+and in turn learn about the company. Overall, it was imperative to display information and content relevant to the company through well structured design,
+positive imagery and colour. 
+
+With regard to the content of the site, I aimed to answer four key questions that the company wanted users to be able to answer on landing and navigating the site.
+- **_What_** are the services that company provide?
+- **_Why_** would we choose this company, are they working within our specific area of expertise? 
+- **_How_** will this company help our needs? **_How_** much experience do they have? 
+- **_Where_** are the company based, are they operating on the island of Ireland?
+ 
+__Customer goals__ 
+
+The customer or users goals will be met by answering the questions posed earlier. The users want an informative, responsive and efficient website.
+The users want basic information with an opportunity to learn more if they wish. This will be achieved through easily digestible snippets of text, combined 
+with modern imagery to re-enforce the information.  
+__Company goals__
+
 ## Scope 
 ----------------
 This is the section for the scope of the project
+Features you will include based on your strategy (can/cannot achieve)
 ## Structure
 ----------------
+How is your information logically grouped on your site
 ## Skeleton 
 ----------------
+How information is presented – navigation to features etc.
 ## Surface 
 ----------------
+The look and feel of your site - colours, typography, ease of use.
 # Features 
 ----------------
 ## 1. Navigation
