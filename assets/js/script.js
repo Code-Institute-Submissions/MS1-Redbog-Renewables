@@ -5,3 +5,7 @@ mymap = L.map('mapid').setView([53.5267, -6.5488], 13);
                             }).addTo(mymap);
 
                             var marker = L.marker([53.5267613,-6.5488573]).addTo(mymap);
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
