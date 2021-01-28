@@ -12,13 +12,24 @@ ready to assist in the ever-growing market of renewable energy.
 ## User Stories
 ----------------
 __Business to Business__
-- As a user
+- As a user, I would like to quickly and effectively understand the purpose of the website.
+- As a user, I need to be able to easily navigate the page in a standard format.
+- As a user, I would like to know what services the company provide.
+- As a user, I need to understand that the company supports the technology relevant to my business.
+- As a user, I would like to know about the history and experience of the company.
+- As a user, I would appreciate the opportunity to "meet the team", with the ability to know more if I need to.
+- As a user, I would like to contact the company, and quickly filter what service I am interested in.
+- As a user, knowing where the company is based is important.
+- As a user, I would like to use the site on mobile and desktop.  
 
 __Prospective Employee__
+- As a user, 
 
 __Prospective Investor__
 
 __Returning Users__
+- As a returning user, I would like to be able to quickly navigate to a specific area of the site. i.e Go directly to the contact page.
+- As a returning user, I need to be able to gain more information about relevant services that had not been identified on the first visit to the site.
 
 
 ## Strategy
