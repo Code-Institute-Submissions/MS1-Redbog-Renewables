@@ -335,6 +335,7 @@ hr {
     border-radius: 25px;
     padding: 5%;
     max-width: 526px;
+    font-weight: 200;
 }
 
 .contact-heading {
@@ -387,9 +388,29 @@ hr {
 
 /*--------------------------------------------- FOOTER ---------------------------------------- */
 .footer-page {
-    background-color: grey;
+    background-color: #383838;
     height: 50px;
     color: #00feb2;
+    height: auto;
+}
+
+.footer-col {
+    display: inline;
+    text-align: center;
+    padding: 2%;
+}
+
+.footer-icon {
+    color: #00feb2;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.footer-icon:hover {
+    color: #ffffff;
+    transition: all 0.9s ease-in-out;
 }
 
 /*---------------------------------------------- Service card work ---------------------------------------- */
