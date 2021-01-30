@@ -486,6 +486,11 @@ hr {
     transition: all 0.3s;
 }
 
+.hover-img {
+    width: 100%;
+    object-fit: cover;
+}
+
 .hover-1 .hover-overlay {
     background: rgba(0, 0, 0, 0.5);
 }
@@ -510,13 +515,13 @@ hr {
     bottom: 0;
     opacity: 0;
     left: 0;
-    text-align: center;
+    text-align: justify;
     z-index: 99;
     transition: all 0.5s;
 }
 
 .hover-1:hover .hover-1-title {
-    transform: translateY(-5rem);
+    transform: translateY(-6rem);
 }
 
 .hover-1:hover .hover-1-description {
