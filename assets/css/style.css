@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;900&display=swap');
 
+body.mobile-fix .section .background-image.background-image-fixed {
+background-attachment: scroll !important;
+}
+
 /*------------------------------------------------ NAVBAR ----------------------------------------------*/
 .navbar-custom {
     background-color: #383838;
