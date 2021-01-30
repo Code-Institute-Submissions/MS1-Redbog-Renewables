@@ -139,6 +139,15 @@
     font-family: 'Lato', sans-serif;
 }
 
+.fa-cloud-download-alt {
+    color: #00feb2;
+}
+
+.fa-cloud-download-alt:hover {
+    color: #ffffff;
+    transition: all 0.35s ease-in-out;
+}
+
 /*.services-card {
     width: 350px;
     height: 286px;
