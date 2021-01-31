@@ -1,9 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;900&display=swap');
 
-body.mobile-fix .section .background-image.background-image-fixed {
-background-attachment: scroll !important;
-}
 
 /*------------------------------------------------ NAVBAR ----------------------------------------------*/
 .navbar-custom {
@@ -60,11 +57,17 @@ background-attachment: scroll !important;
     display: inline;
 }
 
-
+/*-background: url(../images/turbinesunset.jpg) no-repeat top center fixed;*/
 /*--------------------------------------------- LANDING PAGE ---------------------------------------- */
 .landing-page {
-    background: url(../images/turbinesunset.jpg) no-repeat top center fixed;
+    background: url(../images/turbinesunset.jpg) fixed;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     height: 100vh;
     position: relative;
     display: flex;
@@ -522,7 +525,7 @@ hr {
 .hover-1-description {
     font-family: 'Lato', sans-serif;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 1.25rem;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -531,6 +534,7 @@ hr {
     text-align: justify;
     z-index: 99;
     transition: all 0.5s;
+    padding-right: 2rem;
 }
 
 .hover-1:hover .hover-1-title {
@@ -656,3 +660,37 @@ hr {
 	50% { opacity: 0; }
 	100% { opacity: 1; }
 }
+
+/*------- MEDIA BREAKPOINTS -----------*/
+
+@media screen and (max-width: 1400px) {
+    .hover-1-description {
+        font-size: 1rem;
+    }}
+
+
+@media screen and (max-width: 992px) {
+    .hover-1-description {
+        font-size: 1.25rem;
+    }}
+
+@media screen and (max-width: 576px) {
+    .hover-1-description {
+        font-size: 1rem;
+    }}
+
+@media screen and (max-width: 360px) {
+    .hover-1-description {
+        font-size: 0.75rem;
+    }}
+
+@media screen and (max-width: 320px) {
+    .hover-1-title {
+        font-size: 1.5rem;
+    }
+    .hover-1:hover .hover-1-title {
+    transform: translateY(-4rem);
+}
+    .hover-1-description {
+        font-size: 0.75rem;
+    }}
