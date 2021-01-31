@@ -47,5 +47,3 @@ $('.navbar-nav>li>a').on('click', function(){
     $(window).scroll( function() {
       scrollSpy();
     });
-
-
