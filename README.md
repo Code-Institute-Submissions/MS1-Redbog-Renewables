@@ -56,17 +56,41 @@ With regard to the content of the site, I aimed to answer four key questions tha
 - **_How_** will this company help our needs? **_How_** much experience do they have? 
 - **_Where_** are the company based, are they operating on the island of Ireland?
  
-__Customer goals__ 
+__User goals__ 
 
 The customer or users goals will be met by answering the questions posed earlier. The users want an informative, responsive and efficient website.
 The users want basic information with an opportunity to learn more if they wish. This will be achieved through easily digestible snippets of text, combined 
 with modern imagery to re-enforce the information.  
-__Company goals__
+
+To ensure the natural key users needs are net, the page will be a single-scroll page with fixed navigation to specific areas.
+This will be a modern but standard format in order to achieve user goal of an easy-to-use page. 
+
+__Industry Research__
+
+As part of the project conception, a task was undertaken to understand the current trends of web design for companies operating in the field. 
+During the research a number of companies were found that provide similar services to the fictional company. They include:
+
+A number of common themes appeared during my research. The sites were simple in design and layout, offering a clear definition 
+of the services provided by the company and the relevant fields in which they operated. The sites utilised high quality imagery of large
+landscapes and bright colours throughtout their pages. There was simple use of icons and text, with large paragraphs of text avoided.
+Throughout the sites there were opportunites to link directly to get in contact or to learn more about the organisation. Some of the sites 
+information appeared dis-jointed and the structure of containers asymmetric in design. This aspect of the sites was unappealing as a user, and for that reason I was keen to avoid overly complicated layouts.
+
 
 ## Scope 
 ----------------
-This is the section for the scope of the project
-Features you will include based on your strategy (can/cannot achieve)
+
+Based on the strategy of the project, a number of practical requirements were laid out. It should be noted, that content in the project is constrained due to the fact that company is fictional
+and the depth of knowledge acquired from research of the field is limited. The scope therefore includes:
+- Basic and simplified information about the company and the services they provide.
+- An overview of energy technology the company is assumed to have an understanding of.
+- A brief history and description of the organistaion, with a "Meet the team" section of assumed roles a similar organistion might have.
+- A contact form for the company.
+- A interactive map of company location.
+- Fixed navigation bar for desktop and collapsable burger menu for tablet and mobile.
+- Download links for more information.
+- Links to relevant social media for senior professional roles and general organisation. 
+
 ## Structure
 ----------------
 How is your information logically grouped on your site
