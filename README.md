@@ -149,22 +149,52 @@ This ensured the information and content is more disgestable and not overwhelmin
 
 ## Surface 
 ----------------
-The look and feel of your site - colours, typography, ease of use.
+The look and feel of the site was clear from design conception. The modern feel required a dark toned site with bright punchy colours for 
+headings and navigation. The dark background ensured the content and text of the site was clear and discernible from background images or content. 
+
+The company operates in an advanced engineering field with specific reference to the idea of 'green and clean' energy. Therefore, it was important to include the colour green, and it be a significant and prominent
+feature of the site. 
+
+**Colour Theme**
+
+![Image](README_images/colourpalette.png)
+
+**Typography**
+
+
 # Features 
 ----------------
 ## 1. Navigation
+
+![Image](README_images/features/navbar.png)
+
 ----------------
 ## 2. Landing Page
+
+![Image](README_images/features/landing.png)
+
 ----------------
 ## 3. Our Services
+
+![Image](README_images/features/servicecard.png)
+
 ---------------
 ## 4. Our Renewable Technology
+
+![Image](README_images/features/techcard.png)
+
 ---------------
 ## 5. About us / Meet the team
+
+![Image](README_images/features/aboutteam.png)
+
 ---------------
 ## 6. Get in touch 
----------------
-## 7. Footer 
+
+![Image](README_images/features/form.png)
+
+![Image](README_images/features/location.png)
+
 ---------------
 # Accessibility
 
