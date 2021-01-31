@@ -119,11 +119,34 @@ research it was found that was the industry norm.
 - The section will also feature an interactive map of the location of the company and links to social media.
 
 6. **Information Architecture**
+
 ![Image](README_images/ia.png)
 
 ## Skeleton 
 ----------------
-How information is presented – navigation to features etc.
+### **Wireframes** ###
+
+The Skeleton of the project design was built utilising [Figma](https://www.figma.com/design-systems/). A detailed design breakdown can be seen [here.](README_images/design_breakdown.png)
+ 
+ The overall basic design breakpoints can be seen below:
+
+![Image](README_images/wireframe_colour.png)
+
+The indicvaidual wireframes can be seen by following the links below:
+- [Link]
+- [Link]
+- [Link]
+
+### **Changes to initial wireframes** ###
+A number of design edits were made throughout the project with the purpose of increased userability. 
+- The 'Our Services' information cards were made that the bulk of text was not immediately available. 
+The user would have to reveal more specific information about the service by hovering over each card. 
+This ensured the information and content is more disgestable and not overwhelming when the user arrives on the section. 
+
+- The images used in the wireframes were replaced with high quality and more fitting landscape photos.
+
+- The footer was simplified to include only the company logo, social links and copyright information. 
+
 ## Surface 
 ----------------
 The look and feel of your site - colours, typography, ease of use.
