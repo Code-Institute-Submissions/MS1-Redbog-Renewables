@@ -129,7 +129,7 @@
     padding: 8px;
     padding-right: 50%;
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 300;
     font-family: 'Lato', sans-serif;
 }
 
@@ -159,78 +159,6 @@
     color: #f6f7f8;
     transition: all 0.35s ease-in-out;
 }
-
-/*.services-card {
-    width: 350px;
-    height: 286px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    border: 1px solid greenyellow;
-    padding: 5px;
-    margin: 15px;
-     
-    background-color: rgba(0, 0, 0, 0.25);
-    font-family: 'Lato', sans-serif;
-}
-
-
-.flip-card {
-    background-color: rgba(0, 0, 0, 0.6);
-    perspective: 1000px;
-    width: 350px;
-    height: 286px;
-
-}
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;   
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-.flip-card-front {
-    background: url(../images/service-2.jpg) ;
-    
-    background-size: cover;
-    width: 350px;
-    height: 286px;
-    
-    color: white;    
-}
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.flip-card-back {
-    background: url(../images/turbine-card.jpg);
-    color: white;
-    transform: rotateY(180deg);
-}
-
-.card-img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.card-img-overlay {
-    background-color: rgba(0, 0, 0, 0.25);
-}*/
-
-
 /*--------------------------------------------- TECHNOLOGY PAGE ---------------------------------------- */
 .technology-page {
     background-color: transparent;
@@ -256,6 +184,7 @@
     padding-left: 5%;
     padding-right: 5%;
     font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
 }
 
 .technology-card {
@@ -343,6 +272,8 @@ hr {
     margin: 0;
     border-radius: 50%;
     object-fit: cover;
+    height: 100px;
+    width: 100px;
 }
 
 .team-icon {
@@ -354,12 +285,22 @@ hr {
 
 .team-icon:hover {
     color: #00feb2;
-    transition: all 0.9s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
 
 .team-textbox {
     margin: 5px;
     padding: 5px;
+}
+
+.about-link {
+    text-decoration: none;
+    color: #00feb2;
+}
+
+.about-link:hover {
+    color: #b3bcb7;
+    transition: all 0.35s ease-in-out;
 }
 
 /*--------------------------------------------- GET IN TOUCH PAGE ---------------------------------------- */
@@ -395,7 +336,7 @@ hr {
     border-radius: 25px;
     padding: 5%;
     max-width: 526px;
-    font-weight: 200;
+    font-weight: 300;
     z-index: 1;
 }
 
@@ -446,6 +387,10 @@ hr {
     color: #00feb2;
     background-color: #383838;
     transition: all 0.35s ease-in-out;
+}
+
+.contact-icon {
+    color: #00feb2;
 }
 
 /*--------------------------------------------- FOOTER ---------------------------------------- */
@@ -664,17 +609,9 @@ hr {
 /*------- MEDIA BREAKPOINTS -----------*/
 
 @media screen and (max-width: 1400px) {
-    .landing-heading {
-        
-    }
-    .landing-paragraph {
-        
-    }
-   
     .hover-1-description {
         font-size: 1rem;
     }
-
 }
 
 
@@ -697,7 +634,18 @@ hr {
     }
     .hover-1-description {
         font-size: 1.25rem;
-    }}
+    }
+    .technology-paragraph {
+        font-size: 1.1rem;
+    }
+
+
+@media screen and (max-width: 768px) {
+    .technology-paragraph {
+        font-size: 1.0rem;
+    }
+}
+
 
 @media screen and (max-width: 576px) {
     .landing-heading {
@@ -719,7 +667,11 @@ hr {
     }
     .hover-1-description {
         font-size: 1rem;
+    }
+    .technology-paragraph {
+        font-size: 0.9rem;
     }}
+
 
 @media screen and (max-width: 360px) {
     .hover-1-description {
