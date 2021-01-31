@@ -24,14 +24,16 @@
 .nav-item {
     padding-right: 20px;
     text-transform: uppercase;
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 16px;
 }
 
 .navbar-brand {
     color: #00feb2;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    font-size: 1.4rem;
 }
 
 .navbar .navbar-nav li a:hover {
@@ -51,10 +53,13 @@
 .logo {
     width: 46px;
     height: auto;
-    display: inline;
     padding-right: 5px;
     overflow: hidden;
     display: inline;
+}
+
+.logo-display {
+    display: inline-block;
 }
 
 /*-background: url(../images/turbinesunset.jpg) no-repeat top center fixed;*/
@@ -115,7 +120,7 @@
 }
 
 .landing-paragraph {
-    color: white;
+    color: #f6f7f8;
     position: relative;
     margin-top: 5px;
     margin-right: 5px;
@@ -124,7 +129,7 @@
     padding: 8px;
     padding-right: 50%;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Lato', sans-serif;
 }
 
@@ -680,7 +685,20 @@ hr {
 
 @media screen and (max-width: 992px) {
     .landing-heading {
-        
+        text-align: center;
+        top: 5%;
+        left: 0;
+        margin: 0;
+    }
+    .landing-paragraph {
+        top: 5%;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        justify-content: center;
     }
     .hover-1-description {
         font-size: 1.25rem;
