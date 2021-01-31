@@ -93,7 +93,34 @@ and the depth of knowledge acquired from research of the field is limited. The s
 
 ## Structure
 ----------------
-How is your information logically grouped on your site
+
+The structure of the page is formed around a single page scrolling design, with fixed sticky navbar that collapses to burger menu on 
+tablet and desktop. The website is split into five separate sections, that are simple to navigate and clear to understand.
+
+1. **Landing Page**
+- Simple landing page, with large landscape background image featuring the relevant technology used by the company. 
+The content features a simple slogan and a brief description. At the bottom of the page there will be a "scroll to find out more" and interactive arrow icon. 
+This feature will intice the user to find out more. 
+2. **Our Services**
+- This section holds the relevant information that each user-story wants answered. 
+The section is introduced by simple paragraph. The services are broken into three respective stand-alone elements.
+Interactive hover on sections and a link to download further information.
+
+3. **Our Technology**
+- Simple layout of technology the company operates with. Interactive icons and imagery to re-enforce company goals and add to modern user-friendly site.
+
+4. **About Us**
+- Two element page, with "About Us" and "Meet the team". The about section outlines the aims of company, the history and the experience the team members have in the industry.
+The team area includes the image of the character, their name, title and relevant social media links. The team members only include department heads, as during
+research it was found that was the industry norm. 
+
+5. **Get In Touch**
+- This section will enable the user to quickly get directly in contact the company for services, careers or investment. 
+- The section will also feature an interactive map of the location of the company and links to social media.
+
+6. **Information Architecture**
+![Image](README_images/ia.png)
+
 ## Skeleton 
 ----------------
 How information is presented – navigation to features etc.
