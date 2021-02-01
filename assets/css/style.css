@@ -97,6 +97,7 @@
 }
 
 .landing-paragraph {
+    display: block;
     color: #f6f7f8;
     position: relative;
     margin-top: 5px;
