@@ -254,7 +254,63 @@ to redirect users to the form if they had skimmed the page to the bottom.
 
 ---------------
 
-# Future Features
+## 7. Future Features
+
+# Technologies used
+## Languages
+---------------
+For this project two languages were used:
+- [HTML]()
+- [CSS]()
+
+## Libraries, Frameworks and Technologies
+---------------
+- [Bootstrap]()
+
+   Bootstrap was used to for its wasy to use grid and repsonsive layout. Elelments of the navbar, cards and forms were taken
+   from the Bootstrap V5.0 CDN.
+
+- [Figma](https://www.figma.com/)
+
+   Figma was used to create initial design and wireframes for different breakpoints.
+
+- [Logomakr](https://logomakr.com)
+
+   The fictional brand logo was created on 'LogoMakr'.
+
+- [Coolors](https://coolors.co)
+
+   Used to creat colour palette and test colour themes.
+
+- [Unsplash](https://unsplash.com/)
+   
+   The following photos are used in the project:
+   - Photo by [Name]()
+   - Photo by [Name]()
+
+- [Google Fonts](https://fonts.google.com/)
+
+   Google font 'Lato' was included in the project.
+
+- [Font Awesome]()
+
+   All icons used throughout the project come from fontawesome.
+
+- [Am I Responsive?](http://ami.responsivedesign.is/)
+
+- [Leaflet](https://leafletjs.com/examples/quick-start/)
+
+   Leaflet was used for the map in the contact section. Due to my lacking experience with JavaScript, this had to be imported and edited to suit the loction of this project.
+
+- [Maptiler Cloud](https://cloud.maptiler.com/maps/streets/)
+
+   Leaflet uses maptiler cloud to tile the map view.
+
+## Workspace and Version Control
+--------------------
+- [Github](https://github.com/) - The project is hosted on Github and the live website is worked through Github pages.
+
+- [Gitpod](https://www.gitpod.io/) - The project used Gitpod IDE for build and development. 
 
 # Testing 
 ## Code Validators 
@@ -266,8 +322,6 @@ to redirect users to the form if they had skimmed the page to the bottom.
 ## Bugs and Fixes 
 --------------
 # Deployment 
-
-# Tools and Resources 
 
 # Credits 
 ## Content
