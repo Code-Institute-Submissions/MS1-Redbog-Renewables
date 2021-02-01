@@ -213,10 +213,25 @@ The basic hover structure was found [here]() and the design heavily edited to fi
 ---------------
 ## 4. Our Renewable Technology
 
+The technology page is a simple, bright and contrasting page to the rest. The purpose of this feature was to simply familarise the
+user with the technology that the company has a working profeciency in. The reason for contrasting colour was to break the section apart from
+the other sections and perhaps redirect the users attention to the new content on the page. 
+
+The section features three simple bootstrap cards, with bright imagery relevant to the technology description. The cards also feature
+animated icons to engage the user. Below the card headings are very brief benefits of the referred technology.
+
 ![Image](README_images/features/techcard.png)
 
 ---------------
 ## 5. About us / Meet the team
+
+This section features a more detailed description of the company, alongside an opportunity to 'meet the team'. The section also feautures a
+vertical divider, placed to separate the content and allow the user to focus on a single element at a time. 
+
+The team section features high quality professional photos and the ability to let the user find out more about the team. The team members
+relevant social media icons and links are below their titles. The icons feature the hover function and change colour when activated.
+
+The elements of the page are responsive go from side-by-side to vertically aligned at the XXXX breakpoint.
 
 ![Image](README_images/features/aboutteam.png)
 
@@ -228,7 +243,6 @@ The basic hover structure was found [here]() and the design heavily edited to fi
 ![Image](README_images/features/location.png)
 
 ---------------
-# Accessibility
 
 # Future Features
 
