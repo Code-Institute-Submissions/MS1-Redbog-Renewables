@@ -21,7 +21,7 @@ $('.navbar-nav>li>a').on('click', function(){
       var current;
 
       for (var i = 0; i < sections.length; i++) {
-        if ( $('#'+sections[i]).offset().top <= $(window).scrollTop() ) {
+        if ( $('#'+sections[i]).offset().top - ($(sections[i]) !== 'head' ? 50 : 0) <= $(window).scrollTop() ) {
           current = sections[i];
         }
       }
