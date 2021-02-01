@@ -11,31 +11,28 @@ ready to assist in the ever-growing market of renewable energy.
 # UX
 ## User Stories
 ----------------
-__Business to Business__
+In this project there are three main groups of target users. They include potential customers, prospective employees
+and potential investors. The user stories of each group are clearly defined below.
+
+__Applicable to all users__
 - As a user, I would like to quickly and effectively understand the purpose of the website.
 - As a user, I need to be able to easily navigate the page in a standard format.
 - As a user, I would like to know what services the company provide.
-- As a user, I need to understand that the company supports the technology relevant to my business.
+- As a user, I need to understand that the company supports the technology relevant to my business or interest.
 - As a user, I would like to know about the history and experience of the company.
 - As a user, I would appreciate the opportunity to "meet the team", with the ability to know more if I need to.
-- As a user, I would like to contact the company, and quickly filter what service I am interested in.
-- As a user, knowing where the company is located is important, will they be able to provide a service within reasonable time.
+- As a user, I would like to contact the company, and quickly filter what service or area I am interested in.
+- As a user, knowing where the company is located is important, will they be able to provide a service within reasonable time? Are they within a good distance of our location?
 - As a user, I would like to use the site on mobile and desktop.  
 
 __Prospective Employee__
-- As a prospective job applicant, I need to know that the company operates in the relevant area of my skillset.
-- As a prospective job applicant, I would like to know the specific technology in which this company has expertise.
 - As a prospective job applicant, learning about the company prior to my application is important. 
 - As a prospective job applicant, I would like to know that this company is open to recruitment.
-- As a prospective job applicant, I require the ability to contact the company and register my interest in a career.
 - As a prospective job applicant, links to the company social media is important, to find out if the company are active and what their latest news is.
-- As a prospective job applicant, I need to know where the company is based. 
 
 __Potential Investor__
 - As a potential investor, I would like to see that the company is a new start-up company, open to investment.
 - As a potential investor, I need to see that the company is operating a service in a new emerging marketplace.
-- As a potential investor, knowing that the company has substantial experience in the relevant areas is important.
-- As a potential investor, I would like the ability to contact the company and initate communication relevant to my investment opportunity.
 
 __Returning Users__
 - As a returning user, I would like to be able to quickly navigate to a specific area of the site. i.e Go directly to the contact page.
@@ -120,7 +117,7 @@ research it was found that was the industry norm.
 
 6. **Information Architecture**
 
-![Image](README_images/ia.png)
+![Image](assets/images/README_images/ia.png)
 
 ## Skeleton 
 ----------------
@@ -130,7 +127,7 @@ The Skeleton of the project design was built utilising [Figma](https://www.figma
  
  The overall basic design breakpoints can be seen below:
 
-![Image](README_images/wireframe_colour.png)
+![Image](assets/images/README_images/wireframe_colour.png)
 
 The indicvaidual wireframes can be seen by following the links below:
 - [Link]
@@ -157,7 +154,7 @@ feature of the site.
 
 **Colour Theme**
 
-![Image](README_images/colourpalette.png)
+![Image](assets/images/README_images/colourpalette.png)
 
 **Typography**
 
@@ -192,7 +189,7 @@ disgest for the user. The white colour and font size allows clear reading for th
 The base of the page features a moving chevron down icon with 'scroll to find out more' text above. This engages the user and adds to 
 the website flow and user-friendly design.
 
-![Image](README_images/features/landing.png)
+![Image](assets/images/README_images/features/landing.png)
 
 ----------------
 ## 3. Our Services
@@ -208,7 +205,7 @@ The elements of the page are responsive and the font size and container size cha
 
 The basic hover structure was found [here]() and the design heavily edited to fit the sites needs. 
 
-![Image](README_images/features/servicecard.png)
+![Image](assets/images/README_images/features/servicecard.png)
 
 ---------------
 ## 4. Our Renewable Technology
@@ -220,7 +217,7 @@ the other sections and perhaps redirect the users attention to the new content o
 The section features three simple bootstrap cards, with bright imagery relevant to the technology description. The cards also feature
 animated icons to engage the user. Below the card headings are very brief benefits of the referred technology.
 
-![Image](README_images/features/techcard.png)
+![Image](assets/images/README_images/features/techcard.png)
 
 ---------------
 ## 5. About us / Meet the team
@@ -233,7 +230,7 @@ relevant social media icons and links are below their titles. The icons feature 
 
 The elements of the page are responsive go from side-by-side to vertically aligned at the XXXX breakpoint.
 
-![Image](README_images/features/aboutteam.png)
+![Image](assets/images/README_images/features/aboutteam.png)
 
 ---------------
 ## 6. Get in touch 
@@ -243,14 +240,14 @@ The form is simple, but ensures key information is transmitted to the company. T
 menu with the options of each service, careers or investment. There is also a text box which enables the user to get more specific 
 with their first contact to the company.
 
-![Image](README_images/features/form.png)
+![Image](assets/images/README_images/features/form.png)
 
 The other container on the contact page focused on the location. Here we have the address of the company
 and an interactive google map with location marker. This feature adds to the professionalism and overall 
 user experience. Below the map there is another reminder for users to get in contact. This was included 
 to redirect users to the form if they had skimmed the page to the bottom. 
 
-![Image](README_images/features/location.png)
+![Image](assets/images/README_images/features/location.png)
 
 ---------------
 
@@ -315,10 +312,71 @@ For this project two languages were used:
 # Testing 
 ## Code Validators 
 ---------------
-## Mobile First Responsive Elements 
+A number of code validation techniques were utilised to ensure proper testing of site. 
+For HTML and CSS, I used the [W3C Markup Validator](https://validator.w3.org) and [W3C CSS Validation Services](https://jigsaw.w3.org/css-validator/). 
+These tests returned no errors. See below for results.
+
+- [HTML Test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbyrnelorcan.github.io%2FMS1-Redbog-Renewables%2F)
+- [CSS Test](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fbyrnelorcan.github.io%252FMS1-Redbog-Renewables%252F&profile=css3svg&usermedium=all&warning=0&vextwarning=&lang=en)
+
+A Chrome Developer Tools "Lighthouse" Test was aslo completed to test for accessibility and performance. 
+The results are seen below. Initial testing showed a low value of SEO and accessibility. This was rectified by 
+adding missing alt labels and adding a meta description. Although, the accessibility number is still below 90,
+this is an area I wish to improve on going forward with the design of the site. 
+
+![Image](assets/images/README_images/lighthousetest.png)
+
+## Responsive Elements 
 --------------
+## UX User Story Test
+--------------
+The user stories previously laid out in the UX Design section are tested, to ensure that project achieves the user goals.
+
+__Applicable to all users__
+- *As a user, I would like to quickly and effectively understand the purpose of the website.*
+   - The user lands on a page with a clear brand welcoming and a slogan that puts emphasis on important aspects to understand about the company.
+   "Sustainable Services for a greener island".
+
+- *As a user, I need to be able to easily navigate the page in a standard format.*
+   - The fixed sticky navbar allows the user to go directly to the area of the page that is desired. It also enables the user to know exactly where they are on the page, through an active class navbar.
+- *As a user, I would like to know what services the company provide.*
+   - The services section clearly defines three key services provided by the company, and explains the overlying information the user needs.
+- *As a user, I need to understand that the company supports the technology relevant to my business or interest.*
+   - It is important that the user knows that the company can only deploy services to a set range of technologies. That aspect is defined in the 'Technology' section.
+   It is clear that the company focus is wind, solar and hydro. 
+- *As a user, I would like to know about the history and experience of the company.*
+   - The about section gives a detailed overview of the company. 
+- *As a user, I would appreciate the opportunity to "meet the team", with the ability to know more if I need to.*
+   - The user 'meets the team' in the about section. Here the user can interact with the top level employees relevant social media sites.
+- *As a user, I would like to contact the company, and quickly filter what service or area I am interested in.*
+   - The contact page features a form with an option to select the reaon for contacting the company and a text input to specify details of request or interest.
+- *As a user, knowing where the company is located is important, will they be able to provide a service within reasonable time? Are they within a good distance of our location?*
+   - An interactive map showing the location of the company is placed in the contact section.
+- *As a user, I would like to use the site on mobile and desktop.*
+   - The site is fully functional and responsive, with dynamic breakpoints throughout.
+
+__Prospective Employee__
+- *As a prospective job applicant, I would like to know that this company is open to recruitment.*
+   - The oppurtunity for a career is referred to in the about section and there is a option for 'career' available on the contact form.
+- *As a prospective job applicant, links to the company social media is important, to find out if the company are active and what their latest news is.*
+   - The footer features links to the company social media and the 'meet the team' sections has links to personal social media.
+
+__Potential Investor__
+- *As a potential investor, I would like to see that the company is a new start-up company, open to investment.*
+   - This is outlined in the about section of the site. The content makes clear that the company is recently found and open to investment.
+- *As a potential investor, I need to see that the company is operating a service in a new emerging marketplace.*
+   - This is achieved in the services page and also laid out throughout the site. It is widely known to be evergrowing market, particularly in Ireland. 
+   And this aspect is referred to on the landing page and the about section.
+
+__Returning Users__
+- *As a returning user, I would like to be able to quickly navigate to a specific area of the site. i.e Go directly to the contact page.*
+   - A returnig user can navigate to any section of the page from the sticky navbar. 
+- *As a returning user, I need to be able to gain more information about relevant services that had not been identified on the first visit to the site.*
+   - The user has the oppurtunity to download an information pack which would provide more detail on services provided. 
+
 ## Manual Testing
 --------------
+Browsers and Devices test
 ## Bugs and Fixes 
 --------------
 # Deployment 
