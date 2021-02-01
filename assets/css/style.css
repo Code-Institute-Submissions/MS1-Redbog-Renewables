@@ -637,7 +637,7 @@ hr {
     }
     .technology-paragraph {
         font-size: 1.1rem;
-    }
+    }}
 
 
 @media screen and (max-width: 768px) {
@@ -683,8 +683,9 @@ hr {
         font-size: 1.5rem;
     }
     .hover-1:hover .hover-1-title {
-    transform: translateY(-4rem);
-}
+        transform: translateY(-4rem);
+    }
     .hover-1-description {
         font-size: 0.75rem;
-    }}
+    }
+}
