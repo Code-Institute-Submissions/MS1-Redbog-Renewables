@@ -164,17 +164,40 @@ feature of the site.
 
 # Features 
 ----------------
-## 1. Navigation
 
-![Image](README_images/features/navbar.png)
+## 1. Navigation
+The navigation is a fixed sticky top navbar with links to different sections of the single scroll page. The colour used is 
+a dark grey which allows the brand logo and nav items to stand out. The logo and brand name is presented on the far-left side of the navbar and the section
+headings on the far right. As the breakpoints decrease, the navbar transitions to a burger menu. The burger menu is a dropdown menu aligned to the right-hand side of the screen. 
+To match the theme, the burger menu icon is green #00FEB2. 
+
+I wanted to keep the design simple but interactive. When a user hovers over each nav item the colour fades to a white light colour.
+The logo and brand name also act as a nav-link to the landing page, as is standard in modern web-design.
+
+When the navbar is in the collapsed format and the user makes a selection, the page will navigate to the relevant section and
+the navigation will close automatically. This was an important feature to add to the project as it supports user-friendly design and
+the mobile first concept. I utilised javascript code found [here](link) to complete this task.
+
 
 ----------------
 ## 2. Landing Page
+
+The landing page features a large landscape photo with wind turbines operating in the background. Immediately the user is aware that
+the company specialises in an important type of technology. The user is welcomed by bright bold heading text and a short but effective
+slogan underneath. The slogan perfectly defines the important elements the company wishes to portray. 
+
+After the introduction there is some brief text outlining the experience and aims of the company. This is light text and easy to 
+disgest for the user. The white colour and font size allows clear reading for the user.
+
+The base of the page features a moving chevron down icon with 'scroll to find out more' text above. This engages the user and adds to 
+the website flow and user-friendly design.
 
 ![Image](README_images/features/landing.png)
 
 ----------------
 ## 3. Our Services
+
+The key feature of this section is 
 
 ![Image](README_images/features/servicecard.png)
 
