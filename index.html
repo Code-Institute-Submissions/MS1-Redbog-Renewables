@@ -18,7 +18,7 @@
             <div class="container-fluid">
                 <a href="#head" class="navbar-brand">
                     <!-- https://github.com/creativetimofficial/material-kit/issues/107 -->
-                    <div class="logo-display"><img class="logo" src="assets/images/logo.png"></div>
+                    <div class="logo-display"><img class="logo" src="assets/images/logo.png" alt="brand logo"></div>
                     <div class="d-none d-lg-inline-block">RedBog Renewables</div>
                 </a>
 
@@ -51,7 +51,7 @@
     
     <!--Landing Page-->
     <section>
-        <div class="container-fluid landing-page img-fluid">
+        <div class="container-fluid landing-page" alt="Wind Turbines in a field">
            <div class="row">
                <div class="col-12">
                    <h1 class="landing-heading">Welcome to RedBog Renewables</h1>
@@ -94,7 +94,7 @@
             <div class="row justify-content-center">
                 <!-- This is a test hover  https://bootstrapious.com/p/bootstrap-image-hover -->
                 <div class="col-xl-4 col-lg-6 mb-5 mb-xl-0">
-                    <div class="hover hover-1 text-white rounded"><img src="assets/images/service-2.jpg" class="hover-img" alt="">
+                    <div class="hover hover-1 text-white rounded"><img src="assets/images/service-2.jpg" class="hover-img" alt="Graph show on laptop screen">
                         <div class="hover-overlay"></div>
                         <div class="hover-1-content px-5">
                             <h2 class="hover-1-title font-weight-bold mb-0">
@@ -111,7 +111,7 @@
                 </div> 
                 <!-- This is a test hover  https://bootstrapious.com/p/bootstrap-image-hover -->
                 <div class="col-xl-4 col-lg-6 mb-5 mb-xl-0">
-                    <div class="hover hover-1 text-white rounded"><img src="assets/images/service-3.jpg" class="hover-img" alt="">
+                    <div class="hover hover-1 text-white rounded"><img src="assets/images/service-3.jpg" class="hover-img" alt="Map with finger pointing to information">
                         <div class="hover-overlay"></div>
                         <div class="hover-1-content px-5">
                             <h2 class="hover-1-title font-weight-bold mb-0"><span class="font-weight-light">Maintenance </span></h2>
@@ -126,7 +126,7 @@
                 </div> 
                 <!-- This is a test hover  https://bootstrapious.com/p/bootstrap-image-hover -->
                 <div class="col-xl-4 col-lg-6 mb-5 mb-xl-0">
-                    <div class="hover hover-1 text-white rounded"><img src="assets/images/service-1.jpg" class="hover-img" alt="">
+                    <div class="hover hover-1 text-white rounded"><img src="assets/images/service-1.jpg" class="hover-img" alt="Two laptops and two people talking">
                         <div class="hover-overlay"></div>
                         <div class="hover-1-content px-5">
                             <h2 class="hover-1-title font-weight-bold mb-0"><span class="font-weight-light">Design Retrofit </span></h2>
@@ -178,7 +178,7 @@
             </div>
             <div class="col-4 technology-card">
                 <div class="card" style="width: 400px; height: 415.25px;">
-                    <img src="assets/images/solar-card.jpg" class="card-img-top" alt="Wind turbines in a field">
+                    <img src="assets/images/solar-card.jpg" class="card-img-top" alt="Solar Panels in the sun">
                     <div class="card-body">
                         <div class="card-text">
                             <h2><i class="fas fa-sun fa-spin"></i> Solar Energy</h2>
@@ -191,7 +191,7 @@
             </div>
             <div class="col-4 technology-card">
                 <div class="card" style="width: 400px; height: 415.25px;">
-                    <img src="assets/images/hydro2.jpg" class="card-img-top" alt="Wind turbines in a field">
+                    <img src="assets/images/hydro2.jpg" class="card-img-top" alt="Hydropower station seen from above">
                     <div class="card-body">
                         <div class="card-text">
                             <h2><i class="fas fa-water fa-pulses"></i> Hydro Energy</h2>
@@ -343,20 +343,16 @@
                     <p>If you're interested in working together, fill out the form below and we'll get back to you.</p>
                     <form>   
                         <div class="mb-3">
-                            <!--<label for="exampleFormNameInput" class="form-label">Name</label>-->
-                            <input type="name" class="form-control" id="exampleFormNameInput" placeholder="Name" required>
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
                         </div>
                         <div class="mb-3">
-                            <!--<label for="exampleFormEmailInput" class="form-label">Email address</label>-->
-                            <input type="email" class="form-control" id="exampleFormEmailInput" placeholder="Email Address" required>
+                            <input type="email" class="form-control" id="email" placeholder="Email Address" required>
                         </div>
                         <div class="mb-3">
-                            <!--<label for="exampleFormOrganisationInput" class="form-label">Organisation</label>-->
-                            <input type="name" class="form-control" id="exampleFormOrganisationInput" placeholder="Organisation/Company">
+                            <input type="text" class="form-control" id="organisation" placeholder="Organisation/Company">
                         </div>
                         <div class="mb-3">
-                            <!--<label for="FormControlDropdown" class="form-label">Services you need</label>-->
-                            <select class="form-select" aria-label="Default select example" id="FormControlDropdown" placeholder="Services you require" required>
+                            <select class="form-select" aria-label="Default select example" id="formdropdown" placeholder="Services you require" required>
                                 <option selected>Services you require</option>
                                 <option value="1">Asset Management</option>
                                 <option value="2">Maintenance</option>
@@ -366,8 +362,7 @@
                             </select>
                         </div>
                         <div class="mb-3">
-                            <!--<label for="exampleFormControlTextarea1" class="form-label">Let us know how we can help!</label>-->
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="What can we do for you?"></textarea>
+                            <textarea class="form-control" id="textarea" rows="5" placeholder="What can we do for you?"></textarea>
                         </div>
                         <div class="button">
                             <button class="btn btn-primary" type="submit">Submit</button>
@@ -397,11 +392,11 @@
     
     <!--Footer-->
     <footer>
-        <div class="container-fluid footer-page">
+        <div class="container-fluid footer-page" alt="Wind Turbines in valley">
             <div class="row">
             
                 <div class="d-none d-sm-block col-12 col-md-4 footer-col">
-                    <img class="logo" src="assets/images/logo.png">
+                    <img class="logo" src="assets/images/logo.png" alt="brand logo">
                     <h5 style="display: inline;">Redbog Renewables</h5>
                 </div>
                 <div class="col-12 col-md-4 footer-col">
