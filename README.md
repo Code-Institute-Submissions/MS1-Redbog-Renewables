@@ -197,7 +197,16 @@ the website flow and user-friendly design.
 ----------------
 ## 3. Our Services
 
-The key feature of this section is 
+The key feature of this section is three containers each representing a service of the company. The containers feature the service title
+and once hovered over reveal more detailed information about the service.
+
+The service titles have a hint icon in order to suggest the user hover over them. The service description then appears from the base of 
+the container. The purpose of this feature was to engage the user with the content and enable the user to learn more about the service
+in a consumable way. 
+
+The elements of the page are responsive and the font size and container size chage with different breakpoints.
+
+The basic hover structure was found [here]() and the design heavily edited to fit the sites needs. 
 
 ![Image](README_images/features/servicecard.png)
 
