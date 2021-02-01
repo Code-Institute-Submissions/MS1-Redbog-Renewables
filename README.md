@@ -328,6 +328,16 @@ this is an area I wish to improve on going forward with the design of the site.
 
 ## Responsive Elements 
 --------------
+
+The responsivity of the page was tested primarily using [Google Chrome Dev Tools]() and manual resizing of windows. The test provided positive results for each 
+device option. The responsive breakpoints and resizing worked throughout the site. The site was shared with colleagues and friends and tested 
+on their devices. An error on IOS with images was found through these tests. A fix for that problem is referred to in the relevant section below.
+
+Other tools utilised to test responsivity are seen here:
+- [Screenfly](https://bluetree.ai/screenfly/) - [Result](https://bluetree.ai/screenfly/?u=https%3A//byrnelorcan.github.io/MS1-Redbog-Renewables/&a=20&b=10)
+- [Responsinator](http://www.responsinator.com) - [Result](http://www.responsinator.com/?url=https%3A%2F%2Fbyrnelorcan.github.io%2FMS1-Redbog-Renewables%2F)
+  
+
 ## UX User Story Test
 --------------
 The user stories previously laid out in the UX Design section are tested, to ensure that project achieves the user goals.
@@ -376,10 +386,56 @@ __Returning Users__
 
 ## Manual Testing
 --------------
-Browsers and Devices test
+**Browser testing** 
+- The site was manually tested using different browsers and all except safari ran with no problem. Safari appeared to have a problem
+with some of the inline-flex classes. The fix to this is referred to below.
+
+**Funtionality testing**
+- All links on the navbar, social media icons and download links were checked throughout the page. 
+- All hover transitions and transforms were tested.
+- The collapsable navbar was tested and the subsequent automatic closing after selection. This function performed well. 
+- The navbar active class scroll was tested and funtioned well after some editing and guidance from my [mentor](https://github.com/omedale).
+- The form funtionality was tested and each element that has a 'required' attribute was check. The form functioned well.
+
+The funtionality tests verified that the elements of the required sections performed successfully.
+
 ## Bugs and Fixes 
 --------------
+- *Error in background image sizing on IOS devices:*
+   - The fix was found by setting a media-query with CSS class: `background-attachment: scroll;` for the respective screen widths.
+
+- *Error in Safari browser `d-inline-flex` class:*
+   - A fix was to simplify the classes and select `col-12` full widths on the areas where there was placement error.
+
+- *Active navbar class not displaying at correct point:*
+   - The code for this section is attributed below. 
+   - With assistance from my tutor a fix was found to offset the point of activation. 
+   - ```JavaScript 
+      if ( $('#'+sections[i]).offset().top - ($(sections[i]) !== 'head' ? 50 : 0) 
+      <= $(window).scrollTop() ) {
+
 # Deployment 
+
+## Github Pages Deployment:
+The project is deployed to GitHub Pages. To deploy the site follow the instruction below.
+1. In GitHub navigate to the [MS1 RedBog Renewables Repository](https://github.com/byrnelorcan/MS1-Redbog-Renewables).
+2. Locate '_Settings_', navigate to '_Source_' and select _Master Branch_ from the dropdown and click _Save_.
+3. The site will be published and confirmation shown on the page.
+
+## Forking The Repository:
+To create a fork of the Repository simply:
+1. Navigate to the [MS1 RedBog Renewables Repository](https://github.com/byrnelorcan/MS1-Redbog-Renewables).
+2. Select '_Fork_' on the right hand corner of the page.
+
+## Creating a local clone:
+1. In GitHub navigate to the [MS1 RedBog Renewables Repository](https://github.com/byrnelorcan/MS1-Redbog-Renewables).
+2. Above the file list select '_Code_' with the download icon. 
+3. To clone select the copy icon at the far right side of URL.
+4. Open your terminal in respective IDE, and edit working directory to the desired location.
+5. Type `git clone` and paste copied URL.
+6. Select Enter and local clone will be created. 
+
+For more specific information relating to the clone follow this [link](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 # Credits 
 ## Content
