@@ -96,6 +96,25 @@
             animation: fadein 3s;
 }
 
+.landing-paragraph {
+    color: #f6f7f8;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 5px;
+    left: 40px;
+    top: 25%;
+    padding: 8px;
+    padding-right: 50%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -118,24 +137,6 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
-.landing-paragraph {
-    color: #f6f7f8;
-    position: relative;
-    margin-top: 5px;
-    margin-right: 5px;
-    left: 40px;
-    top: 25%;
-    padding: 8px;
-    padding-right: 50%;
-    font-size: 1.25rem;
-    font-weight: 300;
-    font-family: 'Lato', sans-serif;
-    -webkit-transform: translate(-25%,0);
-    transform: translate(-25%);
-}
-
-
 /*----------------------------------------- SERVICES PAGE ------------------------------------------ */
 .services-page {
     background: #010B14;
