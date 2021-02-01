@@ -238,7 +238,17 @@ The elements of the page are responsive go from side-by-side to vertically align
 ---------------
 ## 6. Get in touch 
 
+The aim of the contact page is to enable a seemless experience for the user to get a direct-line of communication to the company.
+The form is simple, but ensures key information is transmitted to the company. The form features a dropdown selection
+menu with the options of each service, careers or investment. There is also a text box which enables the user to get more specific 
+with their first contact to the company.
+
 ![Image](README_images/features/form.png)
+
+The other container on the contact page focused on the location. Here we have the address of the company
+and an interactive google map with location marker. This feature adds to the professionalism and overall 
+user experience. Below the map there is another reminder for users to get in contact. This was included 
+to redirect users to the form if they had skimmed the page to the bottom. 
 
 ![Image](README_images/features/location.png)
 
