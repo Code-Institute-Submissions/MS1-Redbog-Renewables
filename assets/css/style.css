@@ -1,15 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;900&display=swap');
 
-body:after {
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    
-}
+
 
 /*------------------------------------------------ NAVBAR ----------------------------------------------*/
 .navbar-custom {
@@ -86,6 +78,20 @@ body:after {
     position: relative;
     display: flex;
     overflow: hidden;
+}
+
+.landing-page:after {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url(../images/turbine-sunset.jpg);
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 .landing-heading {
