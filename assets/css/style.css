@@ -667,6 +667,10 @@ hr {
         background-attachment: scroll;
     }
     
+    .contact-page {
+        background-attachment: scroll;
+    }
+
     .landing-heading {
         top: 5%;
         text-align: center;
@@ -696,6 +700,9 @@ hr {
     .landing-page {
         background-attachment: scroll;
     }
+    .contact-page {
+        background-attachment: scroll;
+    }
     .hover-1-description {
         font-size: 0.75rem;
     }}
@@ -712,5 +719,8 @@ hr {
     }
     .hover-1-description {
         font-size: 0.75rem;
+    }
+    .contact-page {
+        background-attachment: scroll;
     }
 }
