@@ -8,7 +8,48 @@ that will be familar to the user but showcases the professionalism and modern te
 The websites purpose is to present the start-up company as a professional, experienced and modern organisation 
 ready to assist in the ever-growing market of renewable energy. 
 
-# UX
+- [RedBog Renewables](#redbog-renewables)
+  * [Code Institute Milestone 1 Project](#code-institute-milestone-1-project)
+- [UX](#ux)
+  * [User Stories](#user-stories)
+  * [Strategy](#strategy)
+  * [Scope](#scope)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+    + [**Wireframes**](#--wireframes--)
+    + [**Changes to initial wireframes**](#--changes-to-initial-wireframes--)
+  * [Surface](#surface)
+- [Features](#features)
+  * [1. Navigation](#1-navigation)
+  * [2. Landing Page](#2-landing-page)
+  * [3. Our Services](#3-our-services)
+  * [4. Our Renewable Technology](#4-our-renewable-technology)
+  * [5. About us / Meet the team](#5-about-us---meet-the-team)
+  * [6. Get in touch](#6-get-in-touch)
+  * [7. Future Features](#7-future-features)
+- [Technologies used](#technologies-used)
+  * [Languages](#languages)
+  * [Libraries, Frameworks and Technologies](#libraries--frameworks-and-technologies)
+  * [Workspace and Version Control](#workspace-and-version-control)
+- [Testing](#testing)
+  * [Code Validators](#code-validators)
+  * [Responsive Elements](#responsive-elements)
+  * [UX User Story Test](#ux-user-story-test)
+  * [Manual Testing](#manual-testing)
+  * [Bugs and Fixes](#bugs-and-fixes)
+- [Deployment](#deployment)
+  * [Github Pages Deployment:](#github-pages-deployment-)
+  * [Forking The Repository:](#forking-the-repository-)
+  * [Creating a local clone:](#creating-a-local-clone-)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
+
+
+
+
+# 1. UX
 ## User Stories
 ----------------
 In this project there are three main groups of target users. They include potential customers, prospective employees
@@ -159,7 +200,7 @@ feature of the site.
 **Typography**
 
 
-# Features 
+# 2. Features 
 ----------------
 
 ## 1. Navigation
@@ -294,6 +335,8 @@ For this project two languages were used:
    All icons used throughout the project come from fontawesome.
 
 - [Am I Responsive?](http://ami.responsivedesign.is/)
+
+- [JQuery](https://jquery.com/)
 
 - [Leaflet](https://leafletjs.com/examples/quick-start/)
 
@@ -440,7 +483,34 @@ For more specific information relating to the clone follow this [link](https://d
 # Credits 
 ## Content
 --------------
+- The structure of the site came from [Bootstrap Documentation V5.0.](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- The services hover animation was based on code found from [Bootsrapious - Hover](https://bootstrapious.com/p/bootstrap-image-hover).
+- The pulse and bounce animation found on the landing and technology pages is Gubi's code found here: [Pulse and Bounce.](https://gist.github.com/gubi/8483199)
+- The 'Fade in' effect on the landing page is from Peter Mortensen and can be found on [Stack Overflow.](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load)
+- The map found on the contact page utilised [Leaflet JS](https://leafletjs.com/examples/quick-start/) and [Maptiler](https://cloud.maptiler.com/). The tutorial used to implement that code can be found [here](https://www.youtube.com/watch?v=wVnimcQsuwk).
+- The Collapsing Navbar is from Zim and can be found on [Stack Overflow.](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click)
+- The active Navbar and Scrollspy function is from 'ambitstream' and can been seen [here.](https://gist.github.com/ambitstream/e69f9937fc0f2e22688425f8ecfe5a19)
+- Smaller content is credited in the HTML and CSS directly in the project. 
 ## Media 
 --------------
+- The images used throughout the site are credited below:
+   - Photo of contact page [Wind Turbine](https://unsplash.com/photos/v38KKZvmT_g) by [Artiom Vallat](https://unsplash.com/@virussinside)
+   - Photo of technology card [Hydroplant](https://unsplash.com/photos/w6X7XaolqA0) by [Dan Meyers](https://unsplash.com/@dmey503)
+   - Photo of team member [Engineer 2](https://unsplash.com/photos/IU10leGdwxg) by [Science in HD](https://unsplash.com/@scienceinhd)
+   - Photo of technology card [Solar Plant](https://unsplash.com/photos/V4ZYJZJ3W4M) by [Zbynek Burival](https://unsplash.com/@zburival)
+   - Photo of landing page [Wind Turbine in sunset](https://unsplash.com/photos/4y2TkE8NYXY) by [RawFilm](https://unsplash.com/@rawfilm)
+   - Photo of technology card [Wind turbine in a field](https://unsplash.com/photos/JRUVbgJJTBM) by [Thomas Reaubourg](https://unsplash.com/@thomasreaubourg)
+   - Photo of team member [CEO](https://unsplash.com/photos/sgZX15Da8YE) by [Shipman Northcutt](https://unsplash.com/@shipnorth)
+   - Photo of team member [CFO](https://unsplash.com/photos/0Zx1bDv5BNY) by [Christina](https://unsplash.com/@wocintechchat)
+   - Photo of team member [Human Resources](https://unsplash.com/photos/SJvDxw0azqw) by [Christina](https://unsplash.com/@wocintechchat)
+   - Photo of services card [Design](https://unsplash.com/photos/5fNmWej4tAA) by [Scott Graham](https://unsplash.com/@homajob)
+   - Photo of services card [Asset Management](https://unsplash.com/photos/IrRbSND5EUc) by [Markus Winkler](https://unsplash.com/@markuswinkler)
+   - Photo of services card [Maintenance](https://unsplash.com/photos/mWc8xsxFCLc) by [Thisisengineering](https://unsplash.com/@thisisengineering)
+- All icons were sourced from [font awesome](https://fontawesome.com/)
+- The content was written by me.
+
 ## Acknowledgements
 --------------
+Thank to my family and friends who devoted their time to test the page and proof-read over text. 
+Thanks to the [Code Institute]() for the tutorials and resources. 
+Thanks again to my mentor[Oluwafemi Medale](https://github.com/omedale) for valuable insight and support. 

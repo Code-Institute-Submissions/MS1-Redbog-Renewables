@@ -93,7 +93,7 @@
     position: relative;
     left: 30px;
     top: 25%;
-/*-- https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load --*/
+/*--Referenced in README. Peter Mortensen code on  https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load --*/
  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */
@@ -120,6 +120,7 @@
     font-size: 1.25rem;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
+    /*--Referenced in README. Peter Mortensen code on  https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load --*/
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */
@@ -216,7 +217,7 @@
     background-color: transparent;
 }
 
-/*-- This code came from here: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width */
+/*-- This code came from sepuckett86: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width */
 .card-img-top {
     width: 100%;
     height: 25vh;
@@ -375,7 +376,7 @@ hr {
     color: #010B14;
 }
 
-/*--https://stackoverflow.com/questions/51299051/placeholder-color-change-in-bootstrap--*/
+/*-- Code from Claudio Oliva - https://stackoverflow.com/questions/51299051/placeholder-color-change-in-bootstrap--*/
 .form-control::placeholder { 
             color: #010B14;
             opacity: 1; 
