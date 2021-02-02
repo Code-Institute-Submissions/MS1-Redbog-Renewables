@@ -1,12 +1,19 @@
 # RedBog Renewables
+
+
+![Image](assets/images/README_images/mockup.png)
+
 ## Code Institute Milestone 1 Project
+
 The project has been undertaken to promote a fictional start-up company named "RedBog Renewables". 
 The project aims to give a professional and effective online presence to the start-up company, 
-displaying the goals and XXXXXX that the organistaion wishes to portray. The website is broken down into distinct
-sections that clearly define the services they provide, the XXXX and XXXXX. The basic design is done in a way
+displaying the goals that the organistaion wishes to portray. The website is broken down into distinct
+sections that clearly define the services they provide, the technology they utilise and the story of their brand. The basic design is done in a way
 that will be familar to the user but showcases the professionalism and modern technology. 
 The websites purpose is to present the start-up company as a professional, experienced and modern organisation 
 ready to assist in the ever-growing market of renewable energy. 
+
+# Table of Contents:
 
 - [RedBog Renewables](#redbog-renewables)
   * [Code Institute Milestone 1 Project](#code-institute-milestone-1-project)
@@ -49,7 +56,7 @@ ready to assist in the ever-growing market of renewable energy.
 
 
 
-# 1. UX
+# UX
 ## User Stories
 ----------------
 In this project there are three main groups of target users. They include potential customers, prospective employees
@@ -165,12 +172,11 @@ research it was found that was the industry norm.
 ### **Wireframes** ###
 
 The Skeleton of the project design was built utilising [Figma](https://www.figma.com/design-systems/). A detailed design breakdown can be seen [here.](README_images/design_breakdown.png)
- 
- The overall basic design breakpoints can be seen below:
+The overall basic design breakpoints can be seen below:
 
 ![Image](assets/images/README_images/wireframe_colour.png)
 
-The indicvaidual wireframes can be seen by following the links below:
+The individual wireframes can be seen by following the links below:
 - [Link]
 - [Link]
 - [Link]
@@ -200,7 +206,7 @@ feature of the site.
 **Typography**
 
 
-# 2. Features 
+# Features 
 ----------------
 
 ## 1. Navigation
@@ -294,6 +300,9 @@ to redirect users to the form if they had skimmed the page to the bottom.
 
 ## 7. Future Features
 
+XXXXXXXXXXXXXXX
+
+
 # Technologies used
 ## Languages
 ---------------
@@ -303,48 +312,25 @@ For this project two languages were used:
 
 ## Libraries, Frameworks and Technologies
 ---------------
-- [Bootstrap]()
+- [Bootstrap](https://getbootstrap.com/) - Bootstrap was used to for its wasy to use grid and repsonsive layout. Elelments of the navbar, cards and forms were taken from the Bootstrap V5.0 CDN.
 
-   Bootstrap was used to for its wasy to use grid and repsonsive layout. Elelments of the navbar, cards and forms were taken
-   from the Bootstrap V5.0 CDN.
+- [Figma](https://www.figma.com/) - Figma was used to create initial design and wireframes for different breakpoints.
 
-- [Figma](https://www.figma.com/)
+- [Logomakr](https://logomakr.com) - The fictional brand logo was created on 'LogoMakr'.
 
-   Figma was used to create initial design and wireframes for different breakpoints.
+- [Coolors](https://coolors.co) - Used to creat colour palette and test colour themes.
 
-- [Logomakr](https://logomakr.com)
+- [Unsplash](https://unsplash.com/) - Used to source high quality images.
 
-   The fictional brand logo was created on 'LogoMakr'.
+- [Google Fonts](https://fonts.google.com/) - Google font 'Lato' was included in the project.
 
-- [Coolors](https://coolors.co)
+- [Font Awesome]() - All icons used throughout the project come from fontawesome.
 
-   Used to creat colour palette and test colour themes.
+- [JQuery](https://jquery.com/) - Used for aspects of userability.
 
-- [Unsplash](https://unsplash.com/)
-   
-   The following photos are used in the project:
-   - Photo by [Name]()
-   - Photo by [Name]()
+- [Leaflet](https://leafletjs.com/examples/quick-start/) - Leaflet was used for the map in the contact section. Due to my lacking experience with JavaScript, this had to be imported and edited to suit the loction of this project.
 
-- [Google Fonts](https://fonts.google.com/)
-
-   Google font 'Lato' was included in the project.
-
-- [Font Awesome]()
-
-   All icons used throughout the project come from fontawesome.
-
-- [Am I Responsive?](http://ami.responsivedesign.is/)
-
-- [JQuery](https://jquery.com/)
-
-- [Leaflet](https://leafletjs.com/examples/quick-start/)
-
-   Leaflet was used for the map in the contact section. Due to my lacking experience with JavaScript, this had to be imported and edited to suit the loction of this project.
-
-- [Maptiler Cloud](https://cloud.maptiler.com/maps/streets/)
-
-   Leaflet uses maptiler cloud to tile the map view.
+- [Maptiler Cloud](https://cloud.maptiler.com/maps/streets/) - Leaflet uses maptiler cloud to tile the map view.
 
 ## Workspace and Version Control
 --------------------
@@ -493,7 +479,7 @@ For more specific information relating to the clone follow this [link](https://d
 - Smaller content is credited in the HTML and CSS directly in the project. 
 ## Media 
 --------------
-- The images used throughout the site are credited below:
+- The images via [Unsplash](https://unsplash.com/) used throughout the site are credited below:
    - Photo of contact page [Wind Turbine](https://unsplash.com/photos/v38KKZvmT_g) by [Artiom Vallat](https://unsplash.com/@virussinside)
    - Photo of technology card [Hydroplant](https://unsplash.com/photos/w6X7XaolqA0) by [Dan Meyers](https://unsplash.com/@dmey503)
    - Photo of team member [Engineer 2](https://unsplash.com/photos/IU10leGdwxg) by [Science in HD](https://unsplash.com/@scienceinhd)
@@ -513,4 +499,4 @@ For more specific information relating to the clone follow this [link](https://d
 --------------
 Thank to my family and friends who devoted their time to test the page and proof-read over text. 
 Thanks to the [Code Institute]() for the tutorials and resources. 
-Thanks again to my mentor[Oluwafemi Medale](https://github.com/omedale) for valuable insight and support. 
+Thanks again to my mentor [Oluwafemi Medale](https://github.com/omedale) for valuable insight and support. 
