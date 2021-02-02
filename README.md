@@ -8,10 +8,12 @@
 
 The project has been undertaken to promote a fictional start-up company named "RedBog Renewables". 
 The site aims to give a professional and effective online presence to the start-up company, 
-displaying the goals that the organistaion wishes to portray. The website is broken down into distinct
-sections that clearly define the services they provide, the technology they utilise and the story of their brand. The basic design is done in a way
+displaying the goals that the organistaion wishes to portray. 
+
+The website is broken down into distinct sections that clearly define the services they provide, the technology they utilise and the story of their brand. The basic design is done in a way
 that will be familar to the user but showcases the professionalism and modern technology. 
-The websites purpose is to present the start-up company as a professional, experienced and modern organisation 
+
+Overall, the websites purpose is to present the start-up company as a professional, experienced and modern organisation 
 ready to assist in the ever-growing market of renewable energy. 
 
 # Table of Contents:
