@@ -1,12 +1,13 @@
-# RedBog Renewables
+# **RedBog Renewables**
 
+## **[View the Live Website Here!](https://byrnelorcan.github.io/MS1-Redbog-Renewables/)** ##
 
 ![Image](assets/images/README_images/mockup.png)
 
-## Code Institute Milestone 1 Project
+## **Code Institute Milestone 1 Project - User Centric Frontend Development**
 
 The project has been undertaken to promote a fictional start-up company named "RedBog Renewables". 
-The project aims to give a professional and effective online presence to the start-up company, 
+The site aims to give a professional and effective online presence to the start-up company, 
 displaying the goals that the organistaion wishes to portray. The website is broken down into distinct
 sections that clearly define the services they provide, the technology they utilise and the story of their brand. The basic design is done in a way
 that will be familar to the user but showcases the professionalism and modern technology. 
@@ -15,7 +16,7 @@ ready to assist in the ever-growing market of renewable energy.
 
 # Table of Contents:
 
-- [UX](#ux)
+- [**UX**](#ux)
   * [User Stories](#user-stories)
   * [Strategy](#strategy)
   * [Scope](#scope)
@@ -24,7 +25,7 @@ ready to assist in the ever-growing market of renewable energy.
     + [**Wireframes**](#--wireframes--)
     + [**Changes to initial wireframes**](#--changes-to-initial-wireframes--)
   * [Surface](#surface)
-- [Features](#features)
+- [**Features**](#features)
   * [1. Navigation](#1-navigation)
   * [2. Landing Page](#2-landing-page)
   * [3. Our Services](#3-our-services)
@@ -32,27 +33,27 @@ ready to assist in the ever-growing market of renewable energy.
   * [5. About us / Meet the team](#5-about-us---meet-the-team)
   * [6. Get in touch](#6-get-in-touch)
   * [7. Future Features](#7-future-features)
-- [Technologies used](#technologies-used)
+- [**Technologies**](#technologies-used)
   * [Languages](#languages)
   * [Libraries, Frameworks and Technologies](#libraries--frameworks-and-technologies)
   * [Workspace and Version Control](#workspace-and-version-control)
-- [Testing](#testing)
+- [**Testing**](#testing)
   * [Code Validators](#code-validators)
   * [Responsive Elements](#responsive-elements)
   * [UX User Story Test](#ux-user-story-test)
   * [Manual Testing](#manual-testing)
   * [Bugs and Fixes](#bugs-and-fixes)
-- [Deployment](#deployment)
+- [**Deployment**](#deployment)
   * [Github Pages Deployment:](#github-pages-deployment-)
   * [Forking The Repository:](#forking-the-repository-)
   * [Creating a local clone:](#creating-a-local-clone-)
-- [Credits](#credits)
+- [**Credits**](#credits)
   * [Content](#content)
   * [Media](#media)
   * [Acknowledgements](#acknowledgements)
 
 
-# UX
+# **UX**
 ## User Stories
 ----------------
 In this project there are three main groups of target users. They include potential customers, prospective employees
@@ -209,7 +210,7 @@ Designed by Łukasz Dziedzic](https://fonts.google.com/specimen/Lato). This font
 The font is utilsed significantly in web design and I wanted the user to feel that the site was of high standard and relatively familiar.
 The site also has 'Sans Serif' as an alternative font.
 
-# Features 
+# **Features**
 ----------------
 
 ## 1. Navigation
@@ -314,7 +315,7 @@ I believe that the aforementioned features were outside of the scope of this pro
 at this stage.
 
 
-# Technologies used
+# **Technologies**
 ## Languages
 ---------------
 For this project two languages were used:
@@ -351,7 +352,7 @@ For this project two languages were used:
 
 - [Gitpod](https://www.gitpod.io/) - The project used Gitpod IDE for build and development. 
 
-# Testing 
+# **Testing**
 ## Code Validators 
 ---------------
 A number of code validation techniques were utilised to ensure proper testing of site. 
@@ -479,7 +480,7 @@ To create a fork of the Repository simply:
 
 For more specific information relating to the clone follow this [link](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
-# Credits 
+# **Credits**
 ## Content
 --------------
 - The structure of the site came from [Bootstrap Documentation V5.0.](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
