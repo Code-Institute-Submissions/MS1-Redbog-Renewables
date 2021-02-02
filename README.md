@@ -118,7 +118,7 @@ A number of common themes appeared during my research. The sites were simple in 
 of the services provided by the company and the relevant fields in which they operated. The sites utilised high quality imagery of large
 landscapes and bright colours throughtout their pages. There was simple use of icons and text, with large paragraphs of text avoided.
 Throughout the sites there were opportunites to link directly to get in contact or to learn more about the organisation. Some of the sites 
-information appeared dis-jointed and the structure of containers asymmetric in design. This aspect of the sites was unappealing as a user, and for that reason I was keen to avoid overly complicated layouts.
+information appeared dis-jointed and the structure of containers asymmetric in design. This aspect of the other sites was unappealing as a user, and for that reason I was keen to avoid overly complicated layouts.
 
 
 ## Scope 
@@ -281,7 +281,7 @@ vertical divider, placed to separate the content and allow the user to focus on 
 The team section features high quality professional photos and the ability to let the user find out more about the team. The team members
 relevant social media icons and links are below their titles. The icons feature the hover function and change colour when activated.
 
-The elements of the page are responsive go from side-by-side to vertically aligned at the XXXX breakpoint.
+The elements of the page are responsive go from side-by-side to vertically aligned at the 'lg' breakpoint.
 
 ![Image](assets/images/README_images/features/aboutteam.png)
 
@@ -435,14 +435,14 @@ __Returning Users__
 - The site was manually tested using different browsers and all except safari ran with no problem. Safari appeared to have a problem
 with some of the inline-flex classes. The fix to this is referred to below.
 
-**Funtionality testing**
+**Functionality testing**
 - All links on the navbar, social media icons and download links were checked throughout the page. 
 - All hover transitions and transforms were tested.
 - The collapsable navbar was tested and the subsequent automatic closing after selection. This function performed well. 
 - The navbar active class scroll was tested and funtioned well after some editing and guidance from my [mentor](https://github.com/omedale).
-- The form funtionality was tested and each element that has a 'required' attribute was check. The form functioned well.
+- The form functionality was tested and each element that has a 'required' attribute was check. The form functioned well.
 
-The funtionality tests verified that the elements of the required sections performed successfully.
+The functionality tests verified that the elements of the required sections performed successfully.
 
 ## Bugs and Fixes 
 --------------
