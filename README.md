@@ -15,8 +15,6 @@ ready to assist in the ever-growing market of renewable energy.
 
 # Table of Contents:
 
-- [RedBog Renewables](#redbog-renewables)
-  * [Code Institute Milestone 1 Project](#code-institute-milestone-1-project)
 - [UX](#ux)
   * [User Stories](#user-stories)
   * [Strategy](#strategy)
@@ -52,8 +50,6 @@ ready to assist in the ever-growing market of renewable energy.
   * [Content](#content)
   * [Media](#media)
   * [Acknowledgements](#acknowledgements)
-
-
 
 
 # UX
@@ -178,9 +174,11 @@ The overall basic design breakpoints can be seen below:
 ![Image](assets/images/README_images/wireframe_colour.png)
 
 The individual wireframes can be seen by following the links below:
-- [Link]
-- [Link]
-- [Link]
+- [xs](assets/images/README_images/xs_compressed.pdf)
+- [sm](assets/images/README_images/sm_compressed.pdf)
+- [md](assets/images/README_images/md-compressed.pdf)
+- [lg](assets/images/README_images/lg-compressed.pdf)
+- [xl](assets/images/README_images/xl-compressed.pdf)
 
 ### **Changes to initial wireframes** ###
 A number of design edits were made throughout the project with the purpose of increased userability. 
@@ -225,7 +223,7 @@ The logo and brand name also act as a nav-link to the landing page, as is standa
 
 When the navbar is in the collapsed format and the user makes a selection, the page will navigate to the relevant section and
 the navigation will close automatically. This was an important feature to add to the project as it supports user-friendly design and
-the mobile first concept. I utilised javascript code found [here](link) to complete this task.
+the mobile first concept. I utilised javascript code found [here](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) to complete this task.
 
 
 ----------------
@@ -255,7 +253,7 @@ in a consumable way.
 
 The elements of the page are responsive and the font size and container size chage with different breakpoints.
 
-The basic hover structure was found [here]() and the design heavily edited to fit the sites needs. 
+The basic hover structure was found [here](https://bootstrapious.com/p/bootstrap-image-hover) and the design heavily edited to fit the sites needs. 
 
 ![Image](assets/images/README_images/features/servicecard.png)
 
