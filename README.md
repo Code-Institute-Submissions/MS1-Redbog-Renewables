@@ -171,7 +171,8 @@ research it was found that was the industry norm.
 ----------------
 ### **Wireframes** ###
 
-The Skeleton of the project design was built utilising [Figma](https://www.figma.com/design-systems/). A detailed design breakdown can be seen [here.](README_images/design_breakdown.png)
+The Skeleton of the project design was built utilising [Figma](https://www.figma.com/design-systems/). 
+A detailed design breakdown can be seen [here.](README_images/design_breakdown.png)
 The overall basic design breakpoints can be seen below:
 
 ![Image](assets/images/README_images/wireframe_colour.png)
@@ -205,6 +206,7 @@ feature of the site.
 
 **Typography**
 
+XXXXXXXXXXXXXXXXX
 
 # Features 
 ----------------
@@ -318,7 +320,7 @@ For this project two languages were used:
 
 - [Logomakr](https://logomakr.com) - The fictional brand logo was created on 'LogoMakr'.
 
-- [Coolors](https://coolors.co) - Used to creat colour palette and test colour themes.
+- [Coolors](https://coolors.co) - Used to create colour palette and test colour themes.
 
 - [Unsplash](https://unsplash.com/) - Used to source high quality images.
 
