@@ -172,7 +172,7 @@ research it was found that was the industry norm.
 ### **Wireframes** ###
 
 The Skeleton of the project design was built utilising [Figma](https://www.figma.com/design-systems/). 
-A detailed design breakdown can be seen [here.](README_images/design_breakdown.png)
+A detailed design breakdown can be seen [here.](assets/images/README_images/design_breakdown.png)
 The overall basic design breakpoints can be seen below:
 
 ![Image](assets/images/README_images/wireframe_colour.png)
@@ -206,7 +206,10 @@ feature of the site.
 
 **Typography**
 
-XXXXXXXXXXXXXXXXX
+- The font used for both body and headings is [Lato
+Designed by Łukasz Dziedzic](https://fonts.google.com/specimen/Lato). This font was chosen for its clarity and modern feel.
+The font is utilsed significantly in web design and I wanted the user to feel that the site was of high standard and relatively familiar.
+The site also has 'Sans Serif' as an alternative font.
 
 # Features 
 ----------------
@@ -302,15 +305,23 @@ to redirect users to the form if they had skimmed the page to the bottom.
 
 ## 7. Future Features
 
-XXXXXXXXXXXXXXX
+Future features that could be implemented include:
+- Separate pages devoted to careers and investment.
+- Individual pages for each service the company provides.
+- A chatbot to assist the user arriving on site. 
+- Connect the contact form in order for it to function.
+- Provide interactive data output so that the user can visualise the benefits of using the company service.
+
+I believe that the aforementioned features were outside of the scope of this project and for that reason have been excluded from development
+at this stage.
 
 
 # Technologies used
 ## Languages
 ---------------
 For this project two languages were used:
-- [HTML]()
-- [CSS]()
+- [HTML](https://www.w3schools.com/html/#:~:text=HTML%20is%20the%20standard%20markup,learn%20%2D%20You%20will%20enjoy%20it!)
+- [CSS](https://www.w3schools.com/css/)
 
 ## Libraries, Frameworks and Technologies
 ---------------
@@ -326,13 +337,15 @@ For this project two languages were used:
 
 - [Google Fonts](https://fonts.google.com/) - Google font 'Lato' was included in the project.
 
-- [Font Awesome]() - All icons used throughout the project come from fontawesome.
+- [Font Awesome](https://fontawesome.com/) - All icons used throughout the project come from fontawesome.
 
 - [JQuery](https://jquery.com/) - Used for aspects of userability.
 
 - [Leaflet](https://leafletjs.com/examples/quick-start/) - Leaflet was used for the map in the contact section. Due to my lacking experience with JavaScript, this had to be imported and edited to suit the loction of this project.
 
 - [Maptiler Cloud](https://cloud.maptiler.com/maps/streets/) - Leaflet uses maptiler cloud to tile the map view.
+
+- [Mock-Up Generator](https://techsini.com/multi-mockup/index.php) - Used for title photo.
 
 ## Workspace and Version Control
 --------------------
@@ -500,5 +513,5 @@ For more specific information relating to the clone follow this [link](https://d
 ## Acknowledgements
 --------------
 Thank to my family and friends who devoted their time to test the page and proof-read over text. 
-Thanks to the [Code Institute]() for the tutorials and resources. 
+Thanks to the [Code Institute](https://codeinstitute.net) for the tutorials and resources. 
 Thanks again to my mentor [Oluwafemi Medale](https://github.com/omedale) for valuable insight and support. 
